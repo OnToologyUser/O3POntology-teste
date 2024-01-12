@@ -1,0 +1,145 @@
+{
+  "@context" : {
+    "explanatoryNote" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/terms/abstract"
+    },
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
+    },
+    "synonym" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/synonym"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "example" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#example"
+    },
+    "excerptedFrom" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/excerptedFrom"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "firstOrderLogicDefinition" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "semiFormalNaturalLanguageAxiom" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/semiFormalNaturalLanguageAxiom"
+    },
+    "adaptedFrom" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom"
+    },
+    "references" : {
+      "@id" : "http://purl.org/dc/terms/references"
+    },
+    "counterExample" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/counterExample"
+    },
+    "usageNote" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "naturalLanguageDefinition" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition"
+    },
+    "isPrimitive" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/isPrimitive"
+    },
+    "acronym" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/acronym"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#note"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "logicAxiom" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/logicAxiom"
+    },
+    "semiFormalNaturalLanguageDefinition" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/semiFormalNaturalLanguageDefinition"
+    },
+    "subjectMatterExpertExplanation" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/subjectMatterExpertExplanation"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/terms/rights"
+    },
+    "deprecated" : {
+      "@id" : "http://www.w3.org/2002/07/owl#deprecated"
+    },
+    "symbol" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/symbol"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "editorialNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#editorialNote"
+    },
+    "maturity" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/maturity"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source"
+    },
+    "copyright" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/copyright"
+    },
+    "changeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#changeNote"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "primitiveRationale" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/primitiveRationale"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "maintainer" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/maintainer"
+    },
+    "logicDefinition" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/logicDefinition"
+    },
+    "directSource" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/directSource"
+    },
+    "abbreviation" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/abbreviation"
+    },
+    "elucidation" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/elucidation"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "firstOrderLogicAxiom" : {
+      "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicAxiom"
+    }
+  }
+}

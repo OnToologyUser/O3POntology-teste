@@ -1,0 +1,1622 @@
+<https://www.petwin.org/o3po-resources/o3po> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://www.petwin.org/o3po-resources/o3po> <http://www.w3.org/2002/07/owl#versionIRI> <https://www.petwin.org/o3po-resources/o3po/0.1> .
+<https://www.petwin.org/o3po-resources/o3po> <http://www.w3.org/2002/07/owl#imports> <http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl> .
+<https://www.petwin.org/o3po-resources/o3po> <http://www.w3.org/2002/07/owl#imports> <https://raw.githubusercontent.com/BDI-UFRGS/O3POntology/main/imports/Core.rdf> .
+<https://www.petwin.org/o3po-resources/o3po> <http://www.w3.org/2002/07/owl#imports> <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology> .
+<https://www.petwin.org/o3po-resources/o3po> <http://purl.org/dc/elements/1.1/contributor> "Fabrício Rodrigues\nMara Abel" .
+<https://www.petwin.org/o3po-resources/o3po> <http://purl.org/dc/elements/1.1/creator> "Nicolau Santos"@en .
+<https://www.petwin.org/o3po-resources/o3po> <http://purl.org/dc/elements/1.1/description> "A domain ontology for offshore petroleum production plants has been established utilizing BFO as the top-level ontology and incorporating IOF-Core and GeoCore as middle-level ontologies."@en .
+<https://www.petwin.org/o3po-resources/o3po> <http://purl.org/dc/elements/1.1/license> "MIT License\n\nCopyright (c) 2023 Nicolau Oyhenard dos Santos\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS ORIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."@en .
+<https://www.petwin.org/o3po-resources/o3po> <http://purl.org/dc/elements/1.1/title> "Offshore Petroleum Production Plant Ontology (O3PO)"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/source
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#source
+<http://www.geneontology.org/formats/oboInOwl#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologyrepository.com/CommonCoreOntologies/acronym
+<http://www.ontologyrepository.com/CommonCoreOntologies/acronym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.ontologyrepository.com/CommonCoreOntologies/definition
+<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#minQualifiedCardinality
+<http://www.w3.org/2002/07/owl#minQualifiedCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#qualifiedCardinality
+<http://www.w3.org/2002/07/owl#qualifiedCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/componentPartOfAtAllTimes
+<https://purl.industrialontologies.org/ontology/core/Core/componentPartOfAtAllTimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/componentPartOfAtSomeTime
+<https://purl.industrialontologies.org/ontology/core/Core/componentPartOfAtSomeTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://purl.industrialontologies.org/ontology/core/Core/componentPartOfAtSomeTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://purl.industrialontologies.org/ontology/core/Core/componentPartOfAtAllTimes> .
+# 
+# https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom
+<https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.petwin.org/o3po-resources/o3po#author
+<https://www.petwin.org/o3po-resources/o3po#author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/BFO_0000050
+<http://purl.obolibrary.org/obo/BFO_0000050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000051
+<http://purl.obolibrary.org/obo/BFO_0000051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/BFO_0000167
+<http://purl.obolibrary.org/obo/BFO_0000167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/COB_0000039
+<http://purl.obolibrary.org/obo/COB_0000039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/COB_0000039> <http://www.w3.org/2000/01/rdf-schema#label> "has specified input"@en .
+# 
+# http://purl.obolibrary.org/obo/COB_0000040
+<http://purl.obolibrary.org/obo/COB_0000040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.obolibrary.org/obo/COB_0000040> <http://www.w3.org/2000/01/rdf-schema#label> "has specified output"@en .
+# 
+# http://purl.obolibrary.org/obo/RO_0000052
+<http://purl.obolibrary.org/obo/RO_0000052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0000079
+<http://purl.obolibrary.org/obo/RO_0000079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0000080
+<http://purl.obolibrary.org/obo/RO_0000080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0000081
+<http://purl.obolibrary.org/obo/RO_0000081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0000085
+<http://purl.obolibrary.org/obo/RO_0000085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0000086
+<http://purl.obolibrary.org/obo/RO_0000086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0000087
+<http://purl.obolibrary.org/obo/RO_0000087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0001018
+<http://purl.obolibrary.org/obo/RO_0001018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0001019
+<http://purl.obolibrary.org/obo/RO_0001019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.obolibrary.org/obo/RO_0001025
+<http://purl.obolibrary.org/obo/RO_0001025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.industrialontologies.org/core/RO_0000085
+<http://www.industrialontologies.org/core/RO_0000085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.ontologyrepository.com/CommonCoreOntologies/uses_measurement_unit
+<http://www.ontologyrepository.com/CommonCoreOntologies/uses_measurement_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/hasComponentPartAtAllTimes
+<https://purl.industrialontologies.org/ontology/core/Core/hasComponentPartAtAllTimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/hasQuality
+<https://purl.industrialontologies.org/ontology/core/Core/hasQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/hasRole
+<https://purl.industrialontologies.org/ontology/core/Core/hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/processCharacteristicOf
+<https://purl.industrialontologies.org/ontology/core/Core/processCharacteristicOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/qualityOf
+<https://purl.industrialontologies.org/ontology/core/Core/qualityOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://purl.industrialontologies.org/ontology/core/Core/roleOf
+<https://purl.industrialontologies.org/ontology/core/Core/roleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://www.petwin.org/o3po-resources/o3po#component_of
+<https://www.petwin.org/o3po-resources/o3po#component_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#component_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/BFO_0000050> .
+<https://www.petwin.org/o3po-resources/o3po#component_of> <http://www.w3.org/2002/07/owl#inverseOf> <https://www.petwin.org/o3po-resources/o3po#has_component> .
+<https://www.petwin.org/o3po-resources/o3po#component_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://www.petwin.org/o3po-resources/o3po#component_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://www.petwin.org/o3po-resources/o3po#component_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://www.petwin.org/o3po-resources/o3po#component_of> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a part of relation that holds betweentwo material entities"@en .
+<https://www.petwin.org/o3po-resources/o3po#component_of> <http://www.w3.org/2000/01/rdf-schema#label> "component of"@en .
+<https://www.petwin.org/o3po-resources/o3po#component_of> <http://www.w3.org/2000/01/rdf-schema#label> "componente de"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#connected_to
+<https://www.petwin.org/o3po-resources/o3po#connected_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#connected_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<https://www.petwin.org/o3po-resources/o3po#connected_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://www.petwin.org/o3po-resources/o3po#connected_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://www.petwin.org/o3po-resources/o3po#connected_to> <http://www.w3.org/2000/01/rdf-schema#label> "conectado a"@pt .
+<https://www.petwin.org/o3po-resources/o3po#connected_to> <http://www.w3.org/2000/01/rdf-schema#label> "connected to"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with
+<https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.petwin.org/o3po-resources/o3po#connected_to> .
+<https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/BFO_0000040> .
+<https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between two things which have a fluid exchange connection"@en .
+<https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> <http://www.w3.org/2000/01/rdf-schema#label> "exchanges fluid with"@en .
+<https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> <http://www.w3.org/2000/01/rdf-schema#label> "troca fluido com"@pt .
+<https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> <https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom> "http://www.w3id.org/fso"@en .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedTarget> "Relation between two things which have a fluid exchange connection"@en .
+_:genid1 <http://purl.org/dc/terms/source> "Flow Systems Ontology (FSO)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to
+<https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> .
+<https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> <http://www.w3.org/2002/07/owl#inverseOf> <https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> .
+<https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation from a thing feeding fluid to the thing it is feeding fluid to."@en .
+<https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> <http://www.w3.org/2000/01/rdf-schema#label> "alimenta fluido para"@pt .
+<https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> <http://www.w3.org/2000/01/rdf-schema#label> "feeds fluid to"@en .
+<https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> <https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom> "http://www.w3id.org/fso"@en .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedTarget> "Relation from a thing feeding fluid to the thing it is feeding fluid to."@en .
+_:genid2 <http://purl.org/dc/terms/source> "Flow Systems Ontology (FSO)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#has_component
+<https://www.petwin.org/o3po-resources/o3po#has_component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#has_component> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/BFO_0000051> .
+<https://www.petwin.org/o3po-resources/o3po#has_component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://www.petwin.org/o3po-resources/o3po#has_component> <http://www.w3.org/2000/01/rdf-schema#label> "has component"@en .
+<https://www.petwin.org/o3po-resources/o3po#has_component> <http://www.w3.org/2000/01/rdf-schema#label> "tem component"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.petwin.org/o3po-resources/o3po#exchanges_fluid_with> .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation from a thing that is fed fluid to the thing feeding the fluid."@en .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> <http://www.w3.org/2000/01/rdf-schema#label> "has fluid fed by"@en .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> <http://www.w3.org/2000/01/rdf-schema#label> "tem fluido alimentado por"@pt .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> <https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom> "http://www.w3id.org/fso"@en .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid3 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> .
+_:genid3 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid3 <http://www.w3.org/2002/07/owl#annotatedTarget> "Relation from a thing that is fed fluid to the thing feeding the fluid."@en .
+_:genid3 <http://purl.org/dc/terms/source> "Flow Systems Ontology (FSO)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#has_fluid_returned_by
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_returned_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_returned_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_returned_by> <http://www.w3.org/2002/07/owl#inverseOf> <https://www.petwin.org/o3po-resources/o3po#returns_fluid_to> .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_returned_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a thing that has fluid returned to it and the thing returning the fluid."@en .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_returned_by> <http://www.w3.org/2000/01/rdf-schema#label> "has fluid returned by"@en .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_returned_by> <http://www.w3.org/2000/01/rdf-schema#label> "tem fluido retornado por"@pt .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_returned_by> <https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom> "http://www.w3id.org/fso"@en .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid4 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#has_fluid_returned_by> .
+_:genid4 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid4 <http://www.w3.org/2002/07/owl#annotatedTarget> "Relation between a thing that has fluid returned to it and the thing returning the fluid."@en .
+_:genid4 <http://purl.org/dc/terms/source> "Flow Systems Ontology (FSO)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#has_fluid_supplied_by
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_supplied_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_supplied_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.petwin.org/o3po-resources/o3po#feeds_fluid_to> .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_supplied_by> <http://www.w3.org/2002/07/owl#inverseOf> <https://www.petwin.org/o3po-resources/o3po#supplies_fluid_to> .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_supplied_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a thing that has fluid supplied to it and the thing supplying the fluid."@en .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_supplied_by> <http://www.w3.org/2000/01/rdf-schema#label> "has fluid supplied by"@en .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_supplied_by> <http://www.w3.org/2000/01/rdf-schema#label> "tem fluido fornecido por"@pt .
+<https://www.petwin.org/o3po-resources/o3po#has_fluid_supplied_by> <https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom> "http://www.w3id.org/fso"@en .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid5 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#has_fluid_supplied_by> .
+_:genid5 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid5 <http://www.w3.org/2002/07/owl#annotatedTarget> "Relation between a thing that has fluid supplied to it and the thing supplying the fluid."@en .
+_:genid5 <http://purl.org/dc/terms/source> "Flow Systems Ontology (FSO)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#injects
+<https://www.petwin.org/o3po-resources/o3po#injects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#injects> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. to introduce (something) into a passage, cavity, or solid material under pressure."@en .
+<https://www.petwin.org/o3po-resources/o3po#injects> <http://www.w3.org/2000/01/rdf-schema#label> "injects"@en .
+<https://www.petwin.org/o3po-resources/o3po#injects> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.lexico.com/en/definition/inject"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#measures
+<https://www.petwin.org/o3po-resources/o3po#measures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://www.petwin.org/o3po-resources/o3po#produces
+<https://www.petwin.org/o3po-resources/o3po#produces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#produces> <http://www.w3.org/2000/01/rdf-schema#label> "produces"@en .
+<https://www.petwin.org/o3po-resources/o3po#produces> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "def. to make or manufacture from components or raw materials."@en .
+<https://www.petwin.org/o3po-resources/o3po#produces> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.lexico.com/en/definition/produce"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#returns_fluid_to
+<https://www.petwin.org/o3po-resources/o3po#returns_fluid_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#returns_fluid_to> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> .
+<https://www.petwin.org/o3po-resources/o3po#returns_fluid_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation implying logical return flow from a thing to another."@en .
+<https://www.petwin.org/o3po-resources/o3po#returns_fluid_to> <http://www.w3.org/2000/01/rdf-schema#label> "retorna fluido para"@pt .
+<https://www.petwin.org/o3po-resources/o3po#returns_fluid_to> <http://www.w3.org/2000/01/rdf-schema#label> "returns fluid to"@en .
+<https://www.petwin.org/o3po-resources/o3po#returns_fluid_to> <https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom> "http://www.w3id.org/fso"@en .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid6 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#returns_fluid_to> .
+_:genid6 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid6 <http://www.w3.org/2002/07/owl#annotatedTarget> "Relation implying logical return flow from a thing to another."@en .
+_:genid6 <http://purl.org/dc/terms/source> "Flow Systems Ontology (FSO)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#separates
+<https://www.petwin.org/o3po-resources/o3po#separates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#separates> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. to cause to move or be apart."@en .
+<https://www.petwin.org/o3po-resources/o3po#separates> <http://www.w3.org/2000/01/rdf-schema#label> "separates"@en .
+<https://www.petwin.org/o3po-resources/o3po#separates> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.lexico.com/en/definition/separate"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#stores
+<https://www.petwin.org/o3po-resources/o3po#stores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#stores> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#stores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://www.petwin.org/o3po-resources/o3po#stores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<https://www.petwin.org/o3po-resources/o3po#stores> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. to keep or accumulate (something) for future use."@en .
+<https://www.petwin.org/o3po-resources/o3po#stores> <http://www.w3.org/2000/01/rdf-schema#label> "stores"@en .
+<https://www.petwin.org/o3po-resources/o3po#stores> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.lexico.com/en/definition/store"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#supplies_fluid_to
+<https://www.petwin.org/o3po-resources/o3po#supplies_fluid_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#supplies_fluid_to> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.petwin.org/o3po-resources/o3po#has_fluid_fed_by> .
+<https://www.petwin.org/o3po-resources/o3po#supplies_fluid_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation implying logical supply flow from a thing to another."@en .
+<https://www.petwin.org/o3po-resources/o3po#supplies_fluid_to> <http://www.w3.org/2000/01/rdf-schema#label> "fornece fluido para"@pt .
+<https://www.petwin.org/o3po-resources/o3po#supplies_fluid_to> <http://www.w3.org/2000/01/rdf-schema#label> "supplies fluid to"@en .
+<https://www.petwin.org/o3po-resources/o3po#supplies_fluid_to> <https://purl.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom> "http://www.w3id.org/fso"@en .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid7 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#supplies_fluid_to> .
+_:genid7 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid7 <http://www.w3.org/2002/07/owl#annotatedTarget> "Relation implying logical supply flow from a thing to another."@en .
+_:genid7 <http://purl.org/dc/terms/source> "Flow Systems Ontology (FSO)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#transports
+<https://www.petwin.org/o3po-resources/o3po#transports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#transports> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#transports> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. the action of transporting something or the state of being transported"@en .
+<https://www.petwin.org/o3po-resources/o3po#transports> <http://www.w3.org/2000/01/rdf-schema#label> "transports"@en .
+<https://www.petwin.org/o3po-resources/o3po#transports> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.lexico.com/en/definition/transport"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#treats
+<https://www.petwin.org/o3po-resources/o3po#treats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.petwin.org/o3po-resources/o3po#treats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://www.petwin.org/o3po-resources/o3po#treats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://www.petwin.org/o3po-resources/o3po#treats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<https://www.petwin.org/o3po-resources/o3po#treats> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. to apply a process or a substance to (something) to protect or preserve it or to give it particular properties."@en .
+<https://www.petwin.org/o3po-resources/o3po#treats> <http://www.w3.org/2000/01/rdf-schema#label> "treats"@en .
+<https://www.petwin.org/o3po-resources/o3po#treats> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.lexico.com/en/definition/treat"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://www.petwin.org/o3po-resources/o3po#has_value
+<https://www.petwin.org/o3po-resources/o3po#has_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.petwin.org/o3po-resources/o3po#has_value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/BFO_0000019> .
+<https://www.petwin.org/o3po-resources/o3po#has_value> <http://www.w3.org/2000/01/rdf-schema#label> "has value"@en .
+<https://www.petwin.org/o3po-resources/o3po#has_value> <http://www.w3.org/2000/01/rdf-schema#label> "tem valor"@pt .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_earth_fluid
+<https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_earth_fluid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock
+<https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Borehole
+<https://www.petwin.org/o3po-resources/o3po#Borehole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Borehole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000029> .
+<https://www.petwin.org/o3po-resources/o3po#Borehole> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000050> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Borehole> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "borehole"@en .
+<https://www.petwin.org/o3po-resources/o3po#Borehole> <http://www.geneontology.org/formats/oboInOwl#source> "https://www.lexico.com/en/definition/well"@en .
+<https://www.petwin.org/o3po-resources/o3po#Borehole> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a BFO:Site that is a boring in the Earth designed to bring oil, gas or water to the surface. "@en .
+<https://www.petwin.org/o3po-resources/o3po#Borehole> <http://www.w3.org/2000/01/rdf-schema#comment> "A shaft sunk into the ground to obtain water, oil, or gas."@en .
+<https://www.petwin.org/o3po-resources/o3po#Borehole> <http://www.w3.org/2000/01/rdf-schema#label> "furo do poço"@pt .
+<https://www.petwin.org/o3po-resources/o3po#Borehole> <http://www.w3.org/2000/01/rdf-schema#label> "wellbore"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#BottomholePressure
+<https://www.petwin.org/o3po-resources/o3po#BottomholePressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#BottomholePressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+<https://www.petwin.org/o3po-resources/o3po#BottomholePressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#BottomholePressure> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. pressure at the bottom of the well."@en .
+<https://www.petwin.org/o3po-resources/o3po#BottomholePressure> <http://www.w3.org/2000/01/rdf-schema#label> "bottomhole pressure"@en .
+<https://www.petwin.org/o3po-resources/o3po#BottomholePressure> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.glossary.oilfield.slb.com/Terms/b/bottomhole_pressure.aspx"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#CentrifugalPump
+<https://www.petwin.org/o3po-resources/o3po#CentrifugalPump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#CentrifugalPump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Pump> .
+<https://www.petwin.org/o3po-resources/o3po#CentrifugalPump> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#Positive-DisplacementPump> .
+<https://www.petwin.org/o3po-resources/o3po#CentrifugalPump> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a pump where the rotary motion applies centrifugal force to discharge fluids from the pump."@en .
+<https://www.petwin.org/o3po-resources/o3po#CentrifugalPump> <http://www.w3.org/2000/01/rdf-schema#label> "bomba centrífuga"@pt .
+<https://www.petwin.org/o3po-resources/o3po#CentrifugalPump> <http://www.w3.org/2000/01/rdf-schema#label> "centrifugal pump"@en .
+<https://www.petwin.org/o3po-resources/o3po#CentrifugalPump> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.glossary.oilfield.slb.com/Terms/c/centrifugal_pump.aspx" .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ChristmasTree
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/Assembly> .
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#valve> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/hasComponentPartAtAllTimes> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Tree"@en .
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.geneontology.org/formats/oboInOwl#source> <https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)> .
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. an assembly that is composed of of valves and that is located above a well and that is directly or indirectly connected to the well to control the flow of fluids from/into the well."@en .
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.w3.org/2000/01/rdf-schema#comment> "In petroleum and natural gas extraction, a Christmas tree, or \"tree\", is an assembly of valves, spools, and fittings used to regulate the flow of pipes in an oil well, gas well, water injection well, water disposal well, gas injection well, condensate well and other types of wells."@en .
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: \"Assembly of valves that is located above a (completed) well and that is directly or indirectly connected to the well (i.e., to the wellhead) to control the flow of fluids from/into the well.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.w3.org/2000/01/rdf-schema#label> "christmas tree"@en .
+<https://www.petwin.org/o3po-resources/o3po#ChristmasTree> <http://www.w3.org/2000/01/rdf-schema#label> "árvore de natal"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#CrudeOil
+<https://www.petwin.org/o3po-resources/o3po#CrudeOil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#CrudeOil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Petroleum> .
+<https://www.petwin.org/o3po-resources/o3po#CrudeOil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Petroleum> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000050> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#CrudeOil> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#NaturalGas> .
+<https://www.petwin.org/o3po-resources/o3po#CrudeOil> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. petroleum that exists as a liquid in underground geologic formations and remains a liquid when brought to the surface."@en .
+<https://www.petwin.org/o3po-resources/o3po#CrudeOil> <http://www.w3.org/2000/01/rdf-schema#label> "crude oil"@en .
+<https://www.petwin.org/o3po-resources/o3po#CrudeOil> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Petroleum" .
+# 
+# https://www.petwin.org/o3po-resources/o3po#FPSO
+<https://www.petwin.org/o3po-resources/o3po#FPSO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#FPSO> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Platform> .
+<https://www.petwin.org/o3po-resources/o3po#FPSO> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#Semisubmersible> .
+<https://www.petwin.org/o3po-resources/o3po#FPSO> <http://www.geneontology.org/formats/oboInOwl#source> "https://www.glossary.oilfield.slb.com/Terms/f/fpso.aspx"@en .
+<https://www.petwin.org/o3po-resources/o3po#FPSO> <http://www.ontologyrepository.com/CommonCoreOntologies/acronym> "FPSO"@en .
+<https://www.petwin.org/o3po-resources/o3po#FPSO> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. an offshore platform that serve as gathering, processing and storage facilities for fluids produced from subsea wells."@en .
+<https://www.petwin.org/o3po-resources/o3po#FPSO> <http://www.w3.org/2000/01/rdf-schema#comment> "Abbreviation for floating production, storage, and offloading vessel. FPSOs are commonly deployed for offshore production in locations that have little infrastructure. They serve as gathering, processing and storage facilities for fluids produced from subsea wells. Processed using equipment on the ship’s deck, the fluids are then stored in the ship’s hull before they are offloaded to pipelines, barges, or ships."@en .
+<https://www.petwin.org/o3po-resources/o3po#FPSO> <http://www.w3.org/2000/01/rdf-schema#label> "floating production, storage, and offloading vessel"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Flow
+<https://www.petwin.org/o3po-resources/o3po#Flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Flow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000015> .
+<https://www.petwin.org/o3po-resources/o3po#Flow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#fluid> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Flow> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "fluid flow"@en .
+<https://www.petwin.org/o3po-resources/o3po#Flow> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a process that has partipant some fluid and the fluid is in continuous movement."@en .
+<https://www.petwin.org/o3po-resources/o3po#Flow> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition: The continuous movement characteristic of a liquid or gas. [Definition Source: NCI]"@en .
+<https://www.petwin.org/o3po-resources/o3po#Flow> <http://www.w3.org/2000/01/rdf-schema#label> "flow"@en .
+<https://www.petwin.org/o3po-resources/o3po#Flow> <http://www.w3.org/2000/01/rdf-schema#label> "fluxo"@pt .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#Flow> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedTarget> "Definition: The continuous movement characteristic of a liquid or gas. [Definition Source: NCI]"@en .
+_:genid13 <http://www.w3.org/2000/01/rdf-schema#comment> "http://purl.obolibrary.org/obo/NCIT_C41141"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ICV
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#valve> .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV_annular_pressure> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/hasQuality> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV_annular_temperature> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/hasQuality> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV_delta_pressure> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/hasQuality> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV_open_control_line_pressure> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/hasQuality> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#tubing> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#component_of> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#choke> .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://purl.obolibrary.org/obo/IAO_0000118> "válvula de completação inteligente"@pt .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.ontologyrepository.com/CommonCoreOntologies/acronym> "ICV"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/2000/01/rdf-schema#label> "inflow control valve"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV> <http://www.w3.org/2000/01/rdf-schema#label> "válvula de controle de influxo"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ICV_annular_pressure
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "ICV annular pressure"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressão no anular do ICV"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ICV_annular_temperature
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#temperature> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_temperature> <http://www.w3.org/2000/01/rdf-schema#label> "ICV annular temperature"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV_annular_temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura no anular do ICV"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ICV_delta_pressure
+<https://www.petwin.org/o3po-resources/o3po#ICV_delta_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_delta_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_delta_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_delta_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "ICV delta pressure"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV_delta_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressão delta do ICV"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#flow_rate> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid23 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000167> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#Flow> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://spec.industrialontologies.org/ontology/core/Core/processCharacteristicOf> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#WellFlowRate> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> <http://www.w3.org/2000/01/rdf-schema#comment> "the rate of a flow that occurs inside an ICV"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> <http://www.w3.org/2000/01/rdf-schema#label> "ICV flow rate"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> <http://www.w3.org/2000/01/rdf-schema#label> "vazão na ICV"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_ICV_method
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_ICV_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_ICV_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#flow_rate_measurement_datum> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_ICV_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://spec.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_ICV_method> <http://www.w3.org/2000/01/rdf-schema#label> "ICV flow rate ICV method"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_ICV_method> <http://www.w3.org/2000/01/rdf-schema#label> "vazão da ICV método ICV"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_IPR_method
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_IPR_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_IPR_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#flow_rate_measurement_datum> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_IPR_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://spec.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_IPR_method> <http://www.w3.org/2000/01/rdf-schema#label> "ICV flow rate IPR method"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_IPR_method> <http://www.w3.org/2000/01/rdf-schema#label> "vazão da ICV método IPR"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_reconciled_method
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_reconciled_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_reconciled_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#flow_rate_measurement_datum> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_reconciled_method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <https://spec.industrialontologies.org/ontology/core/Core/isAbout> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_reconciled_method> <http://www.w3.org/2000/01/rdf-schema#label> "ICV flow rate reconciled method"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_reconciled_method> <http://www.w3.org/2000/01/rdf-schema#label> "vazão da ICV método reconciliado"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#ICV_open_control_line_pressure
+<https://www.petwin.org/o3po-resources/o3po#ICV_open_control_line_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_open_control_line_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_open_control_line_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ICV> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#ICV_open_control_line_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "ICV open control line pressure"@en .
+<https://www.petwin.org/o3po-resources/o3po#ICV_open_control_line_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressão na linha de controle aberta do ICV"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#InjectionWell
+<https://www.petwin.org/o3po-resources/o3po#InjectionWell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#InjectionWell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Well> .
+<https://www.petwin.org/o3po-resources/o3po#InjectionWell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#injector_role> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000087> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#InjectionWell> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#Production_Well> .
+<https://www.petwin.org/o3po-resources/o3po#InjectionWell> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a well where fluids are injected rather than produced, the primary objective typically being to maintain reservoir pressure."@en .
+<https://www.petwin.org/o3po-resources/o3po#InjectionWell> <http://www.w3.org/2000/01/rdf-schema#label> "injection well"@en .
+<https://www.petwin.org/o3po-resources/o3po#InjectionWell> <http://www.w3.org/2000/01/rdf-schema#label> "poço de injeção"@pt .
+<https://www.petwin.org/o3po-resources/o3po#InjectionWell> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://petrowiki.spe.org/Glossary:Injection_well" .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Manifold
+<https://www.petwin.org/o3po-resources/o3po#Manifold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Manifold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/Assembly> .
+<https://www.petwin.org/o3po-resources/o3po#Manifold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#tube> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_component> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Manifold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#valve> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_component> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Manifold> <http://purl.org/dc/elements/1.1/source> "https://www.glossary.oilfield.slb.com/en/Terms/m/manifold.aspx"@en .
+<https://www.petwin.org/o3po-resources/o3po#Manifold> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. an assembly that has disposition to connect several flowlines and designed to control, distribute and typically monitor fluid flow from or to multiple wells."@en .
+<https://www.petwin.org/o3po-resources/o3po#Manifold> <http://www.w3.org/2000/01/rdf-schema#comment> "An arrangement of piping or valves designed to control, distribute and typically monitor fluid flow."@en .
+<https://www.petwin.org/o3po-resources/o3po#Manifold> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: \"An assembly of pipe, valves, and fittings for connecting several pipes designed to control, distribute and typically monitor fluid flow from or to multiple wells.”"@en .
+<https://www.petwin.org/o3po-resources/o3po#Manifold> <http://www.w3.org/2000/01/rdf-schema#label> "manifold"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#NaturalGas
+<https://www.petwin.org/o3po-resources/o3po#NaturalGas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#NaturalGas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Petroleum> .
+<https://www.petwin.org/o3po-resources/o3po#NaturalGas> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#Water> .
+<https://www.petwin.org/o3po-resources/o3po#NaturalGas> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. petroleum that is composed of a hydrocarbon gas mixture consisting primarily of methane, but commonly includes varying amounts of other higher alkanes and sometimes a usually lesser percentage of carbon dioxide, nitrogen, and/or hydrogen sulfide."@en .
+<https://www.petwin.org/o3po-resources/o3po#NaturalGas> <http://www.w3.org/2000/01/rdf-schema#label> "gás natural"@pt .
+<https://www.petwin.org/o3po-resources/o3po#NaturalGas> <http://www.w3.org/2000/01/rdf-schema#label> "natural gas"@en .
+<https://www.petwin.org/o3po-resources/o3po#NaturalGas> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Natural_gas" .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Observation_well
+<https://www.petwin.org/o3po-resources/o3po#Observation_well> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Observation_well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Well> .
+<https://www.petwin.org/o3po-resources/o3po#Observation_well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#observation_role> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/hasRole> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Observation_well> <http://www.geneontology.org/formats/oboInOwl#source> "Oil and Gas Wells, Pennsylvania Code, Title 25, Chapter 78, December 2012."@en .
+<https://www.petwin.org/o3po-resources/o3po#Observation_well> <http://www.geneontology.org/formats/oboInOwl#source> "https://iadclexicon.org/observation-well/#:~:text=Observation%20well%E2%80%94A%20well%20used,below%20the%20gas%20storage%20horizon."@en .
+<https://www.petwin.org/o3po-resources/o3po#Observation_well> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a well that bears an observation role."@en .
+<https://www.petwin.org/o3po-resources/o3po#Observation_well> <http://www.w3.org/2000/01/rdf-schema#comment> "A well used to monitor the operational integrity and conditions in a gas storage reservoir, the reservoir protective area or strata above or below the gas storage horizon."@en .
+<https://www.petwin.org/o3po-resources/o3po#Observation_well> <http://www.w3.org/2000/01/rdf-schema#label> "observation well"@en .
+<https://www.petwin.org/o3po-resources/o3po#Observation_well> <http://www.w3.org/2000/01/rdf-schema#label> "poço de observação"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#PLEM
+<https://www.petwin.org/o3po-resources/o3po#PLEM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#PLEM> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Manifold> .
+<https://www.petwin.org/o3po-resources/o3po#PLEM> <http://www.geneontology.org/formats/oboInOwl#source> "https://oilstates.com/offshore/subsea-pipeline-products/plem-plet-structures/#:~:text=Offshore-,PLEM%2FPLET%20Structures,or%20termination%20of%20a%20pipeline." .
+<https://www.petwin.org/o3po-resources/o3po#PLEM> <http://www.ontologyrepository.com/CommonCoreOntologies/acronym> "PLEM" .
+<https://www.petwin.org/o3po-resources/o3po#PLEM> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a manifold that splits the product flow into multiple routes that may feed into an FPSO, refinery and holding tanks concurrently." .
+<https://www.petwin.org/o3po-resources/o3po#PLEM> <http://www.w3.org/2000/01/rdf-schema#label> "pipeline end manifold" .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Permeability
+<https://www.petwin.org/o3po-resources/o3po#Permeability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Permeability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000019> .
+<https://www.petwin.org/o3po-resources/o3po#Permeability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_value> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Permeability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_value> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Permeability> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. the measure of the ability of a porous material (often, a rock or an unconsolidated material) to allow fluids to pass through it."@en .
+<https://www.petwin.org/o3po-resources/o3po#Permeability> <http://www.w3.org/2000/01/rdf-schema#label> "permeabilidade (qualidade)"@pt .
+<https://www.petwin.org/o3po-resources/o3po#Permeability> <http://www.w3.org/2000/01/rdf-schema#label> "permeability (quality)"@en .
+<https://www.petwin.org/o3po-resources/o3po#Permeability> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Permeability_(Earth_sciences)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Petroleum
+<https://www.petwin.org/o3po-resources/o3po#Petroleum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Petroleum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_earth_fluid> .
+<https://www.petwin.org/o3po-resources/o3po#Petroleum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#CrudeOil> .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Petroleum> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#Water> .
+<https://www.petwin.org/o3po-resources/o3po#Petroleum> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. an earth fluid that consists of a complex mixture of hydrocarbons of various molecular weights and other liquid organic compounds, that are found in geologic formations beneath the planetary surfaces."@en .
+<https://www.petwin.org/o3po-resources/o3po#Petroleum> <http://www.w3.org/2000/01/rdf-schema#label> "petroleum"@en .
+<https://www.petwin.org/o3po-resources/o3po#Petroleum> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Petroleum" .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Pipeline
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/Assembly> .
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#tube> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_component> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.geneontology.org/formats/oboInOwl#source> "https://petrowiki.org/Glossary:Flowline"@en .
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. an assembly that is necessarily composed of tubes which are connected to one another in a single, maximal/end-to-end line, and that is intended for conveying liquids, gases or finely divided solids."@en .
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.w3.org/2000/01/rdf-schema#comment> "The pipe connection between the well and the separators or tank battery."@en .
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: \"System that is necessarily (but not necessarily exclusively, e.g., may include pipe joints, pumps, valves, and control devices) composed of tubes/pipes/ducts which are connected [open-to-open?] one another in a single, maximal/end-to-end line, and that [‘intended for’/’able to’ conveying liquids, gases or finely divided solids.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.w3.org/2000/01/rdf-schema#comment> "possible components, but not necessarily exclusively, e.g., may include pipe joints, pumps, valves, and control devices) \""@en .
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.w3.org/2000/01/rdf-schema#label> "pipeline"@en .
+<https://www.petwin.org/o3po-resources/o3po#Pipeline> <http://www.w3.org/2000/01/rdf-schema#label> "tubulação"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Platform
+<https://www.petwin.org/o3po-resources/o3po#Platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Platform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
+<https://www.petwin.org/o3po-resources/o3po#Platform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#field> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001025> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Platform> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#Well> .
+<https://www.petwin.org/o3po-resources/o3po#Platform> <http://www.geneontology.org/formats/oboInOwl#source> "https://petrowiki.spe.org/Glossary:Platform"@en .
+<https://www.petwin.org/o3po-resources/o3po#Platform> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. an engineered system that is an offshore structure from which a well may be drilled or produced."@en .
+<https://www.petwin.org/o3po-resources/o3po#Platform> <http://www.w3.org/2000/01/rdf-schema#comment> "An offshore structure from which a well may be drilled or produced."@en .
+<https://www.petwin.org/o3po-resources/o3po#Platform> <http://www.w3.org/2000/01/rdf-schema#label> "platform"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Positive-DisplacementPump
+<https://www.petwin.org/o3po-resources/o3po#Positive-DisplacementPump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Positive-DisplacementPump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Pump> .
+<https://www.petwin.org/o3po-resources/o3po#Positive-DisplacementPump> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "A type of fluid pump in which the displacement volume of the pump is fixed for each rotation of the pump." .
+<https://www.petwin.org/o3po-resources/o3po#Positive-DisplacementPump> <http://www.w3.org/2000/01/rdf-schema#label> "bomba de deslocamento positivo"@pt .
+<https://www.petwin.org/o3po-resources/o3po#Positive-DisplacementPump> <http://www.w3.org/2000/01/rdf-schema#label> "positive-displacement pump"@en .
+<https://www.petwin.org/o3po-resources/o3po#Positive-DisplacementPump> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.glossary.oilfield.slb.com/Terms/p/positive-displacement_pump.aspx" .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Production_Well
+<https://www.petwin.org/o3po-resources/o3po#Production_Well> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Production_Well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Well> .
+<https://www.petwin.org/o3po-resources/o3po#Production_Well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#producer_role> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000087> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Production_Well> <http://www.geneontology.org/formats/oboInOwl#source> "https://petrowiki.spe.org/Glossary:Producing_well"@en .
+<https://www.petwin.org/o3po-resources/o3po#Production_Well> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a well that produces hydrocarbon in commercial quantities."@en .
+<https://www.petwin.org/o3po-resources/o3po#Production_Well> <http://www.w3.org/2000/01/rdf-schema#label> "poço de produção"@pt .
+<https://www.petwin.org/o3po-resources/o3po#Production_Well> <http://www.w3.org/2000/01/rdf-schema#label> "production well"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Pump
+<https://www.petwin.org/o3po-resources/o3po#Pump> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Pump> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
+<https://www.petwin.org/o3po-resources/o3po#Pump> <http://www.geneontology.org/formats/oboInOwl#source> "https://www.lexico.com/en/definition/pump"@en .
+<https://www.petwin.org/o3po-resources/o3po#Pump> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a machine that moves fluids or fluid-like amounts (e.g., slurries) by increasing pressure of the fluid or pressure difference in a fluid flow."@en .
+<https://www.petwin.org/o3po-resources/o3po#Pump> <http://www.w3.org/2000/01/rdf-schema#comment> "Lexico: \"A mechanical device using suction or pressure to raise or move liquids, compress gases, or force air into inflatable objects such as tires\""@en .
+<https://www.petwin.org/o3po-resources/o3po#Pump> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: “Device that moves (e.g., transfer, deliver, compress) fluids (e.g., liquids, gases) or fluid-like amounts (e.g., slurries) by increasing pressure [of the fluid] [or pressure difference in a fluid stream].”"@en .
+<https://www.petwin.org/o3po-resources/o3po#Pump> <http://www.w3.org/2000/01/rdf-schema#label> "bomba"@pt .
+<https://www.petwin.org/o3po-resources/o3po#Pump> <http://www.w3.org/2000/01/rdf-schema#label> "pump"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Riser
+<https://www.petwin.org/o3po-resources/o3po#Riser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Riser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<https://www.petwin.org/o3po-resources/o3po#Riser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Pipeline> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Riser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Pipeline> .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Riser> <http://www.geneontology.org/formats/oboInOwl#source> "https://petrowiki.org/Glossary:Riser"@en .
+<https://www.petwin.org/o3po-resources/o3po#Riser> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a role that has bearer some pipeline."@en .
+<https://www.petwin.org/o3po-resources/o3po#Riser> <http://www.w3.org/2000/01/rdf-schema#comment> "Pipe through which liquid travels upward."@en .
+<https://www.petwin.org/o3po-resources/o3po#Riser> <http://www.w3.org/2000/01/rdf-schema#label> "riser role"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Semisubmersible
+<https://www.petwin.org/o3po-resources/o3po#Semisubmersible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Semisubmersible> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Platform> .
+<https://www.petwin.org/o3po-resources/o3po#Semisubmersible> <http://www.geneontology.org/formats/oboInOwl#source> "https://www.glossary.oilfield.slb.com/Terms/s/semisubmersible.aspx"@en .
+<https://www.petwin.org/o3po-resources/o3po#Semisubmersible> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. offshore platform that can be used for drilling, workover operations, and production platforms, depending on the equipment with which they are equipped."@en .
+<https://www.petwin.org/o3po-resources/o3po#Semisubmersible> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular type of floating vessel that is supported primarily on large pontoon-like structures submerged below the sea surface. The operating decks are elevated perhaps 100 or more feet above the pontoons on large steel columns. Semisubmersibles can operate in a wide range of water depths, including deep water. Semisubmersibles (called semisubs or simply semis) can be used for drilling, workover operations, and production platforms, depending on the equipment with which they are equipped."@en .
+<https://www.petwin.org/o3po-resources/o3po#Semisubmersible> <http://www.w3.org/2000/01/rdf-schema#label> "semisubmersible"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Separator
+<https://www.petwin.org/o3po-resources/o3po#Separator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Separator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/MaterialArtifact> .
+<https://www.petwin.org/o3po-resources/o3po#Separator> <http://www.geneontology.org/formats/oboInOwl#source> "https://petrowiki.spe.org/Glossary:Separator"@en .
+<https://www.petwin.org/o3po-resources/o3po#Separator> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a material artifact that facilitates the separation of gas, oil, and/or water from a produced fluid stream."@en .
+<https://www.petwin.org/o3po-resources/o3po#Separator> <http://www.w3.org/2000/01/rdf-schema#comment> "A production treating vessel designed to facilitate the separation of gas, oil, and/or water from a produced fluid stream."@en .
+<https://www.petwin.org/o3po-resources/o3po#Separator> <http://www.w3.org/2000/01/rdf-schema#label> "separador"@pt .
+<https://www.petwin.org/o3po-resources/o3po#Separator> <http://www.w3.org/2000/01/rdf-schema#label> "separator"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#SubseaTree
+<https://www.petwin.org/o3po-resources/o3po#SubseaTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#SubseaTree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#ChristmasTree> .
+<https://www.petwin.org/o3po-resources/o3po#SubseaTree> <http://purl.obolibrary.org/obo/IAO_0000118> "subsea christmas tree"@en .
+<https://www.petwin.org/o3po-resources/o3po#SubseaTree> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a christmas tree that is projected to work at subsea."@en .
+<https://www.petwin.org/o3po-resources/o3po#SubseaTree> <http://www.w3.org/2000/01/rdf-schema#label> "subsea tree"@en .
+<https://www.petwin.org/o3po-resources/o3po#SubseaTree> <http://www.w3.org/2000/01/rdf-schema#label> "árvore de natal molhada"@pt .
+<https://www.petwin.org/o3po-resources/o3po#SubseaTree> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)" .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Water
+<https://www.petwin.org/o3po-resources/o3po#Water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Water> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_earth_fluid> .
+<https://www.petwin.org/o3po-resources/o3po#Water> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#condensate> .
+<https://www.petwin.org/o3po-resources/o3po#Water> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. an earth fluid that has chemical formula H2O and is inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance."@en .
+<https://www.petwin.org/o3po-resources/o3po#Water> <http://www.w3.org/2000/01/rdf-schema#comment> "Wikipedia:\"Water (chemical formula H2O) is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of all known living organisms (in which it acts as a solvent[1])\""@en .
+<https://www.petwin.org/o3po-resources/o3po#Water> <http://www.w3.org/2000/01/rdf-schema#label> "water"@en .
+<https://www.petwin.org/o3po-resources/o3po#Water> <http://www.w3.org/2000/01/rdf-schema#label> "água"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Well
+<https://www.petwin.org/o3po-resources/o3po#Well> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
+<https://www.petwin.org/o3po-resources/o3po#Well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Borehole> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Well> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#BottomholePressure> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000086> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Well> <http://www.geneontology.org/formats/oboInOwl#source> "https://petrowiki.spe.org/Glossary:Completed_well"@en .
+<https://www.petwin.org/o3po-resources/o3po#Well> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. an object aggregate that is used to produce hydrocarbons or inject fluids and is located in a wellbore"@en .
+<https://www.petwin.org/o3po-resources/o3po#Well> <http://www.w3.org/2000/01/rdf-schema#comment> "A well that has been drilled, cased and cemented and is ready to produce hydrocarbons."@en .
+<https://www.petwin.org/o3po-resources/o3po#Well> <http://www.w3.org/2000/01/rdf-schema#label> "poço"@pt .
+<https://www.petwin.org/o3po-resources/o3po#Well> <http://www.w3.org/2000/01/rdf-schema#label> "well"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#WellFlowRate
+<https://www.petwin.org/o3po-resources/o3po#WellFlowRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#WellFlowRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#flow_rate> .
+<https://www.petwin.org/o3po-resources/o3po#WellFlowRate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid46 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000167> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#Flow> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <https://spec.industrialontologies.org/ontology/core/Core/processCharacteristicOf> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#WellFlowRate> <http://purl.obolibrary.org/obo/IAO_0000112> "production rate of a well, injection rate of a well"@en .
+<https://www.petwin.org/o3po-resources/o3po#WellFlowRate> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. the flow rate that has only crude oil and water as participants and occurs in a well"@en .
+<https://www.petwin.org/o3po-resources/o3po#WellFlowRate> <http://www.w3.org/2000/01/rdf-schema#label> "vazão líquida do poço"@pt .
+<https://www.petwin.org/o3po-resources/o3po#WellFlowRate> <http://www.w3.org/2000/01/rdf-schema#label> "well liquid rate"@en .
+<https://www.petwin.org/o3po-resources/o3po#WellFlowRate> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://www.glossary.oilfield.slb.com/Terms/w/well_flow_rate.aspx"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Wellhead
+<https://www.petwin.org/o3po-resources/o3po#Wellhead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Wellhead> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/Assembly> .
+<https://www.petwin.org/o3po-resources/o3po#Wellhead> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#component_of> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Wellhead> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. an assembly that is located at the top of the casing strings of a well and that provide pressure control of a well, and the means for hanging and isolating the various tubular strings."@en .
+<https://www.petwin.org/o3po-resources/o3po#Wellhead> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: \"An equipment (or assembly) located to the top of the casing strings of a well [composed by spools, valves, fittings,  tubing and casing heads] (that provide pressure control of a well), and the means for hanging and isolating the various tubular strings”"@en .
+<https://www.petwin.org/o3po-resources/o3po#Wellhead> <http://www.w3.org/2000/01/rdf-schema#label> "cabeça do poço"@pt .
+<https://www.petwin.org/o3po-resources/o3po#Wellhead> <http://www.w3.org/2000/01/rdf-schema#label> "wellhead"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#annulus
+<https://www.petwin.org/o3po-resources/o3po#annulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#annulus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000029> .
+<https://www.petwin.org/o3po-resources/o3po#annulus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000050> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#annulus> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a BFO:Site that occupies a well and is delimited by any void between any piping, tubing or casing and the piping, tubing, or casing immediately surrounding it."@en .
+<https://www.petwin.org/o3po-resources/o3po#annulus> <http://www.w3.org/2000/01/rdf-schema#comment> "Wikipedia: \"The annulus of an oil well or water well is any void between any piping, tubing or casing and the piping, tubing, or casing immediately surrounding it.[1] It is named after the corresponding geometric concept.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#annulus> <http://www.w3.org/2000/01/rdf-schema#label> "annulus"@en .
+<https://www.petwin.org/o3po-resources/o3po#annulus> <http://www.w3.org/2000/01/rdf-schema#label> "anular"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#basin
+<https://www.petwin.org/o3po-resources/o3po#basin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#basin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000146> .
+<https://www.petwin.org/o3po-resources/o3po#basin> <http://www.w3.org/2000/01/rdf-schema#label> "bacia"@pt .
+<https://www.petwin.org/o3po-resources/o3po#basin> <http://www.w3.org/2000/01/rdf-schema#label> "basin" .
+# 
+# https://www.petwin.org/o3po-resources/o3po#being_operated_capability
+<https://www.petwin.org/o3po-resources/o3po#being_operated_capability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#being_operated_capability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/Capability> .
+<https://www.petwin.org/o3po-resources/o3po#being_operated_capability> <http://www.w3.org/2000/01/rdf-schema#label> "being operated capability"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#casing
+<https://www.petwin.org/o3po-resources/o3po#casing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#casing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000027> .
+<https://www.petwin.org/o3po-resources/o3po#casing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#component_of> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#casing> <http://www.w3.org/2000/01/rdf-schema#label> "casing"@en .
+<https://www.petwin.org/o3po-resources/o3po#casing> <http://www.w3.org/2000/01/rdf-schema#label> "revestimento"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#choke
+<https://www.petwin.org/o3po-resources/o3po#choke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#choke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#valve> .
+<https://www.petwin.org/o3po-resources/o3po#choke> <http://www.w3.org/2000/01/rdf-schema#label> "choke valve"@en .
+<https://www.petwin.org/o3po-resources/o3po#choke> <http://www.w3.org/2000/01/rdf-schema#label> "válvula de choke"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#choke_position
+<https://www.petwin.org/o3po-resources/o3po#choke_position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#choke_position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000019> .
+<https://www.petwin.org/o3po-resources/o3po#choke_position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#choke> .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#choke_position> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#choke> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#choke_position> <http://www.w3.org/2000/01/rdf-schema#label> "choke position"@en .
+<https://www.petwin.org/o3po-resources/o3po#choke_position> <http://www.w3.org/2000/01/rdf-schema#label> "posição do choke"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#choke_size
+<https://www.petwin.org/o3po-resources/o3po#choke_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#choke_size> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000019> .
+<https://www.petwin.org/o3po-resources/o3po#choke_size> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
+_:genid55 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#choke> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#choke_size> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
+_:genid56 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#choke> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#choke_size> <http://www.w3.org/2000/01/rdf-schema#label> "choke size"@en .
+<https://www.petwin.org/o3po-resources/o3po#choke_size> <http://www.w3.org/2000/01/rdf-schema#label> "tamanho do choke"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#common_close_control_line_pressure
+<https://www.petwin.org/o3po-resources/o3po#common_close_control_line_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#common_close_control_line_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+<https://www.petwin.org/o3po-resources/o3po#common_close_control_line_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
+_:genid57 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#control_line> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#common_close_control_line_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "common close control line pressure"@en .
+<https://www.petwin.org/o3po-resources/o3po#common_close_control_line_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressão de linha de controle comum de fechamento"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#condensate
+<https://www.petwin.org/o3po-resources/o3po#condensate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#condensate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#CrudeOil> .
+<https://www.petwin.org/o3po-resources/o3po#condensate> <http://www.geneontology.org/formats/oboInOwl#source> "https://www.mckinseyenergyinsights.com/resources/refinery-reference-desk/condensate/"@en .
+<https://www.petwin.org/o3po-resources/o3po#condensate> <http://www.w3.org/2000/01/rdf-schema#comment> "Condensate is a mixture of light liquid hydrocarbons, similar to a very light (high API) crude oil. It is typically separated out of a natural gas stream at the point of production (field separation) when the temperature and pressure of the gas is dropped to atmospheric conditions."@en .
+<https://www.petwin.org/o3po-resources/o3po#condensate> <http://www.w3.org/2000/01/rdf-schema#label> "condensado"@pt .
+<https://www.petwin.org/o3po-resources/o3po#condensate> <http://www.w3.org/2000/01/rdf-schema#label> "condensate"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#control_line
+<https://www.petwin.org/o3po-resources/o3po#control_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#control_line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#tube> .
+<https://www.petwin.org/o3po-resources/o3po#control_line> <http://www.w3.org/2000/01/rdf-schema#comment> "SLB Oilfield Glossary: \"A small-diameter hydraulic line used to operate downhole completion equipment such as the surface controlled subsurface safety valve (SCSSV). Most systems operated by control line operate on a fail-safe basis. In this mode, the control line remains pressurized at all times. Any leak or failure results in loss of control line pressure, acting to close the safety valve and render the well safe.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#control_line> <http://www.w3.org/2000/01/rdf-schema#label> "control line"@en .
+<https://www.petwin.org/o3po-resources/o3po#control_line> <http://www.w3.org/2000/01/rdf-schema#label> "linha de controle"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#delta_pressure
+<https://www.petwin.org/o3po-resources/o3po#delta_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#delta_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000145> .
+<https://www.petwin.org/o3po-resources/o3po#delta_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "delta pressure"@en .
+<https://www.petwin.org/o3po-resources/o3po#delta_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "diferencial de pressão"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#field
+<https://www.petwin.org/o3po-resources/o3po#field> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#field> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000146> .
+<https://www.petwin.org/o3po-resources/o3po#field> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#basin> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001025> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#field> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "Unified definition: An area where one or more reservoirs, grouped on by the same individual geological structural feature and/or stratigraphic condition, exist in the subsurface with the possibility of sufficient economic benefit worthy of commercial attention for exploration and production of hydrocarbons."@en .
+<https://www.petwin.org/o3po-resources/o3po#field> <http://www.w3.org/2000/01/rdf-schema#label> "campo"@pt .
+<https://www.petwin.org/o3po-resources/o3po#field> <http://www.w3.org/2000/01/rdf-schema#label> "field"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#field_name
+<https://www.petwin.org/o3po-resources/o3po#field_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#field_name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#name> .
+<https://www.petwin.org/o3po-resources/o3po#field_name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
+_:genid59 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#field> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000197> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#field_name> <http://www.w3.org/2000/01/rdf-schema#label> "field name"@en .
+<https://www.petwin.org/o3po-resources/o3po#field_name> <http://www.w3.org/2000/01/rdf-schema#label> "nome do campo"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#flow_rate
+<https://www.petwin.org/o3po-resources/o3po#flow_rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#flow_rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/ProcessCharacteristic> .
+<https://www.petwin.org/o3po-resources/o3po#flow_rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Flow> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/processCharacteristicOf> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#flow_rate> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a IOF:process characteristic that is volume of fluid which flows per unit of time"@en .
+<https://www.petwin.org/o3po-resources/o3po#flow_rate> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition: A physical quality inhering in a bearer by virtue of the bearer's motion characteristic. [database_cross_reference: WordNet:WordNet]"@en .
+<https://www.petwin.org/o3po-resources/o3po#flow_rate> <http://www.w3.org/2000/01/rdf-schema#comment> "The volume of fluid which flows per unit of time"@en .
+<https://www.petwin.org/o3po-resources/o3po#flow_rate> <http://www.w3.org/2000/01/rdf-schema#label> "flow rate"@en .
+<https://www.petwin.org/o3po-resources/o3po#flow_rate> <http://www.w3.org/2000/01/rdf-schema#label> "vazão"@pt .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid61 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#flow_rate> .
+_:genid61 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid61 <http://www.w3.org/2002/07/owl#annotatedTarget> "Definition: A physical quality inhering in a bearer by virtue of the bearer's motion characteristic. [database_cross_reference: WordNet:WordNet]"@en .
+_:genid61 <http://purl.org/dc/terms/source> "https://ontobee.org/ontology/PATO?iri=http://purl.obolibrary.org/obo/PATO_0001574"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#flow_rate_measurement_datum
+<https://www.petwin.org/o3po-resources/o3po#flow_rate_measurement_datum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#flow_rate_measurement_datum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/MeasurementInformationContentEntity> .
+<https://www.petwin.org/o3po-resources/o3po#flow_rate_measurement_datum> <http://www.w3.org/2000/01/rdf-schema#label> "flow rate measurement datum"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#flowline
+<https://www.petwin.org/o3po-resources/o3po#flowline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#flowline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Pipeline> .
+<https://www.petwin.org/o3po-resources/o3po#flowline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#ChristmasTree> .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#connected_to> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#flowline> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a pipeline that carries oil, gas or water that connects the wellhead to a manifold or to a platform."@en .
+<https://www.petwin.org/o3po-resources/o3po#flowline> <http://www.w3.org/2000/01/rdf-schema#label> "flowline"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#flowmeter
+<https://www.petwin.org/o3po-resources/o3po#flowmeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#flowmeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#sensor> .
+<https://www.petwin.org/o3po-resources/o3po#flowmeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid63 .
+_:genid63 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#flow_rate> .
+_:genid63 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#measures> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#flowmeter> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a sensor that measures the flow rate of fluids through a pipeline."@en .
+<https://www.petwin.org/o3po-resources/o3po#flowmeter> <http://www.w3.org/2000/01/rdf-schema#comment> "SLB: \"An instrument that measures the flow rate of fluids through a pipeline.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#flowmeter> <http://www.w3.org/2000/01/rdf-schema#label> "flowmeter"@en .
+<https://www.petwin.org/o3po-resources/o3po#flowmeter> <http://www.w3.org/2000/01/rdf-schema#label> "medidor de vazão"@pt .
+<https://www.petwin.org/o3po-resources/o3po#flowmeter> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://glossary.oilfield.slb.com/en/Terms/f/flowmeter.aspx"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#fluid
+<https://www.petwin.org/o3po-resources/o3po#fluid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#fluid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000030> .
+<https://www.petwin.org/o3po-resources/o3po#fluid> <http://purl.obolibrary.org/obo/IAO_0000112> "A puddle of water, this particular pile of sand, a barrel of oil."@en .
+<https://www.petwin.org/o3po-resources/o3po#fluid> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a BFO:Object that is in liquid or gas form and is able to flow in response to external pressure and has no fixed shape."@en .
+<https://www.petwin.org/o3po-resources/o3po#fluid> <http://www.w3.org/2000/01/rdf-schema#comment> "UFO: \"Quantities are maximally-topologically-self-connected (e.g., pieces) of homeomerous amounts of matter, e.g., that puddle of water, this particular pile of sand\""@en .
+<https://www.petwin.org/o3po-resources/o3po#fluid> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: “Portion of Substance (e.g., liquid or gas) that tends/is able to flow in response to external pressure and has no fixed shape (i.e., tends to conform to the outline / assume the shape of the ‘CAVITY OF THE’ container in which it is placed).”"@en .
+<https://www.petwin.org/o3po-resources/o3po#fluid> <http://www.w3.org/2000/01/rdf-schema#comment> "fluido (porção de)"@pt .
+<https://www.petwin.org/o3po-resources/o3po#fluid> <http://www.w3.org/2000/01/rdf-schema#label> "fluid (portion of)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#gas-lift_valve
+<https://www.petwin.org/o3po-resources/o3po#gas-lift_valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#gas-lift_valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#valve> .
+<https://www.petwin.org/o3po-resources/o3po#gas-lift_valve> <http://www.w3.org/2000/01/rdf-schema#label> "gas-lift valve"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#injection_fluid
+<https://www.petwin.org/o3po-resources/o3po#injection_fluid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#injection_fluid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#fluid> .
+<https://www.petwin.org/o3po-resources/o3po#injection_fluid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64 .
+_:genid64 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#injection_role> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/hasRole> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#injection_fluid> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#production_fluid> .
+<https://www.petwin.org/o3po-resources/o3po#injection_fluid> <http://www.w3.org/2000/01/rdf-schema#comment> "Fluid injected by an injection well."@en .
+<https://www.petwin.org/o3po-resources/o3po#injection_fluid> <http://www.w3.org/2000/01/rdf-schema#label> "fluido de injeção"@pt .
+<https://www.petwin.org/o3po-resources/o3po#injection_fluid> <http://www.w3.org/2000/01/rdf-schema#label> "injection fluid"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#injection_role
+<https://www.petwin.org/o3po-resources/o3po#injection_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#injection_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<https://www.petwin.org/o3po-resources/o3po#injection_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid65 .
+_:genid65 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#injection_fluid> .
+_:genid65 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#injection_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid66 .
+_:genid66 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#injection_fluid> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#injection_role> <http://www.w3.org/2000/01/rdf-schema#comment> "Role assumed by a fluid that is being injected into a well."@en .
+<https://www.petwin.org/o3po-resources/o3po#injection_role> <http://www.w3.org/2000/01/rdf-schema#label> "injection role"@en .
+<https://www.petwin.org/o3po-resources/o3po#injection_role> <http://www.w3.org/2000/01/rdf-schema#label> "papel de injeção"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#injector_role
+<https://www.petwin.org/o3po-resources/o3po#injector_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#injector_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<https://www.petwin.org/o3po-resources/o3po#injector_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid67 .
+_:genid67 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid67 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#injector_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#injector_role> <http://www.w3.org/2000/01/rdf-schema#label> "injector role"@en .
+<https://www.petwin.org/o3po-resources/o3po#injector_role> <http://www.w3.org/2000/01/rdf-schema#label> "papel de injetor"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#name
+<https://www.petwin.org/o3po-resources/o3po#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000019> .
+# 
+# https://www.petwin.org/o3po-resources/o3po#nozzle
+<https://www.petwin.org/o3po-resources/o3po#nozzle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#nozzle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/MaterialArtifact> .
+<https://www.petwin.org/o3po-resources/o3po#nozzle> <http://purl.org/dc/elements/1.1/description> "A nozzle is a device designed to control the direction or characteristics of a fluid flow (specially to increase velocity) as it exits (or enters) an enclosed chamber or pipe.\n\nA nozzle is often a pipe or tube of varying cross sectional area, and it can be used to direct or modify the flow of a fluid (liquid or gas). Nozzles are frequently used to control the rate of flow, speed, direction, mass, shape, and/or the pressure of the stream that emerges from them. In a nozzle, the velocity of fluid increases at the expense of its pressure energy."@en .
+<https://www.petwin.org/o3po-resources/o3po#nozzle> <http://purl.org/dc/elements/1.1/description> "A physical object that has a protruding part through which a stream of fluid is directed."@en .
+<https://www.petwin.org/o3po-resources/o3po#nozzle> <http://www.w3.org/2000/01/rdf-schema#label> "nozzle"@en .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid69 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#nozzle> .
+_:genid69 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/description> .
+_:genid69 <http://www.w3.org/2002/07/owl#annotatedTarget> "A nozzle is a device designed to control the direction or characteristics of a fluid flow (specially to increase velocity) as it exits (or enters) an enclosed chamber or pipe.\n\nA nozzle is often a pipe or tube of varying cross sectional area, and it can be used to direct or modify the flow of a fluid (liquid or gas). Nozzles are frequently used to control the rate of flow, speed, direction, mass, shape, and/or the pressure of the stream that emerges from them. In a nozzle, the velocity of fluid increases at the expense of its pressure energy."@en .
+_:genid69 <http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Nozzle"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid70 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#nozzle> .
+_:genid70 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.org/dc/elements/1.1/description> .
+_:genid70 <http://www.w3.org/2002/07/owl#annotatedTarget> "A physical object that has a protruding part through which a stream of fluid is directed."@en .
+_:genid70 <http://purl.obolibrary.org/obo/IAO_0000119> "http://data.posccaesar.org/rdl/RDS415214"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#observation_role
+<https://www.petwin.org/o3po-resources/o3po#observation_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#observation_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<https://www.petwin.org/o3po-resources/o3po#observation_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid71 .
+_:genid71 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Observation_well> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#observation_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Observation_well> .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#observation_role> <http://www.w3.org/2000/01/rdf-schema#label> "observation role"@en .
+<https://www.petwin.org/o3po-resources/o3po#observation_role> <http://www.w3.org/2000/01/rdf-schema#label> "papel de observação"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#plant
+<https://www.petwin.org/o3po-resources/o3po#plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#plant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/EngineeredSystem> .
+<https://www.petwin.org/o3po-resources/o3po#plant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#field> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0001025> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#plant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid74 .
+_:genid74 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Platform> .
+_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_component> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#plant> <http://www.w3.org/2000/01/rdf-schema#label> "plant"@en .
+<https://www.petwin.org/o3po-resources/o3po#plant> <http://www.w3.org/2000/01/rdf-schema#label> "planta"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#pressure
+<https://www.petwin.org/o3po-resources/o3po#pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000019> .
+<https://www.petwin.org/o3po-resources/o3po#pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
+_:genid75 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_value> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_value> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#pressure> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. BFO:Quality that corresponds to the degree/intensity of the force applied perpendicular to the surface of a BFO:Material_Entity per unit area over which that force is distributed”"@en .
+<https://www.petwin.org/o3po-resources/o3po#pressure> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: “BFO:Quality that corresponds to the degree/intensity of the force applied perpendicular to the surface of a BFO:Material_Entity per unit area over which that force is distributed”"@en .
+<https://www.petwin.org/o3po-resources/o3po#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressure"@en .
+<https://www.petwin.org/o3po-resources/o3po#pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressão"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#pressure_downstream_of_choke
+<https://www.petwin.org/o3po-resources/o3po#pressure_downstream_of_choke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#pressure_downstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+<https://www.petwin.org/o3po-resources/o3po#pressure_downstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
+_:genid77 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#choke> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#pressure_downstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#label> "pressure downstream of choke"@en .
+<https://www.petwin.org/o3po-resources/o3po#pressure_downstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#label> "pressão à jusante do choke"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#pressure_sensor
+<https://www.petwin.org/o3po-resources/o3po#pressure_sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#pressure_sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#sensor> .
+<https://www.petwin.org/o3po-resources/o3po#pressure_sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid78 .
+_:genid78 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#measures> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#pressure_sensor> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a sensor that measures the pressure of a fluid."@en .
+<https://www.petwin.org/o3po-resources/o3po#pressure_sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Wikipedia: \"A pressure sensor is a device for pressure measurement of gases or liquids.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#pressure_sensor> <http://www.w3.org/2000/01/rdf-schema#label> "pressure sensor"@en .
+<https://www.petwin.org/o3po-resources/o3po#pressure_sensor> <http://www.w3.org/2000/01/rdf-schema#label> "sensor de pressão"@pt .
+<https://www.petwin.org/o3po-resources/o3po#pressure_sensor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Pressure_sensor"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#pressure_upstream_of_choke
+<https://www.petwin.org/o3po-resources/o3po#pressure_upstream_of_choke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#pressure_upstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+<https://www.petwin.org/o3po-resources/o3po#pressure_upstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid79 .
+_:genid79 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#choke> .
+_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#pressure_upstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#label> "pressure upstream of choke"@en .
+<https://www.petwin.org/o3po-resources/o3po#pressure_upstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#label> "pressão à montante do choke"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#producer_role
+<https://www.petwin.org/o3po-resources/o3po#producer_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#producer_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<https://www.petwin.org/o3po-resources/o3po#producer_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid80 .
+_:genid80 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#producer_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid81 .
+_:genid81 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#producer_role> <http://www.w3.org/2000/01/rdf-schema#label> "papel de produtor"@pt .
+<https://www.petwin.org/o3po-resources/o3po#producer_role> <http://www.w3.org/2000/01/rdf-schema#label> "producer role"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#production_fluid
+<https://www.petwin.org/o3po-resources/o3po#production_fluid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#production_fluid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#fluid> .
+<https://www.petwin.org/o3po-resources/o3po#production_fluid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
+_:genid82 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#production_role> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/hasRole> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#production_fluid> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a fluid that has_role production_role"@en .
+<https://www.petwin.org/o3po-resources/o3po#production_fluid> <http://www.w3.org/2000/01/rdf-schema#comment> "Fluid produced by a production well."@en .
+<https://www.petwin.org/o3po-resources/o3po#production_fluid> <http://www.w3.org/2000/01/rdf-schema#label> "fluido de produção"@pt .
+<https://www.petwin.org/o3po-resources/o3po#production_fluid> <http://www.w3.org/2000/01/rdf-schema#label> "production fluid"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#production_role
+<https://www.petwin.org/o3po-resources/o3po#production_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#production_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<https://www.petwin.org/o3po-resources/o3po#production_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#production_fluid> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#production_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#production_fluid> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#production_role> <http://www.w3.org/2000/01/rdf-schema#comment> "Role assumed by a fluid that is produced by a well such a natural gas or crude oil that are being produced by a well."@en .
+<https://www.petwin.org/o3po-resources/o3po#production_role> <http://www.w3.org/2000/01/rdf-schema#label> "papel de produção"@pt .
+<https://www.petwin.org/o3po-resources/o3po#production_role> <http://www.w3.org/2000/01/rdf-schema#label> "production role"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#production_separator
+<https://www.petwin.org/o3po-resources/o3po#production_separator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#production_separator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Separator> .
+<https://www.petwin.org/o3po-resources/o3po#production_separator> <http://www.w3.org/2000/01/rdf-schema#comment> "Wikipedia: \"The term separator in oilfield terminology designates a pressure vessel used for separating well fluids produced from oil and gas wells into gaseous and liquid components. A separator for petroleum production is a large vessel designed to separate production fluids into their constituent components of oil, gas and water.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#production_separator> <http://www.w3.org/2000/01/rdf-schema#label> "production separator"@en .
+<https://www.petwin.org/o3po-resources/o3po#production_separator> <http://www.w3.org/2000/01/rdf-schema#label> "separador de produção"@pt .
+<https://www.petwin.org/o3po-resources/o3po#production_separator> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "def. a separator that separates production fluids into their constituent components of crude oil, gas and water."@en .
+<https://www.petwin.org/o3po-resources/o3po#production_separator> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Separator_(oil_production)"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#production_zone
+<https://www.petwin.org/o3po-resources/o3po#production_zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#production_zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#reservoir> .
+<https://www.petwin.org/o3po-resources/o3po#production_zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid85 .
+_:genid85 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Petroleum> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#stores> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#production_zone> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "A reservoir or a section of a reservoir that is drilled into and from which hydrocarbons are produced or into which fluids are injected."@en .
+<https://www.petwin.org/o3po-resources/o3po#production_zone> <http://www.w3.org/2000/01/rdf-schema#label> "production zone"@en .
+<https://www.petwin.org/o3po-resources/o3po#production_zone> <http://www.w3.org/2000/01/rdf-schema#label> "zona de produção"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#reservoir
+<https://www.petwin.org/o3po-resources/o3po#reservoir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#reservoir> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock> .
+<https://www.petwin.org/o3po-resources/o3po#reservoir> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid86 .
+_:genid86 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_earth_fluid> .
+_:genid86 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000051> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#reservoir> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid87 .
+_:genid87 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#reservoir_role> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000087> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#reservoir> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "A rock that contains one or more individual and separate natural accumulations of petroleum that is confined (the oil, not the reservoir) by impermeable rock."@en .
+<https://www.petwin.org/o3po-resources/o3po#reservoir> <http://www.w3.org/2000/01/rdf-schema#comment> "A rock (defined in GeoCore) containing one or more individual and separate natural accumulations of petroleum that is confined (the oil, not the reservoir) by impermeable rock."@en .
+<https://www.petwin.org/o3po-resources/o3po#reservoir> <http://www.w3.org/2000/01/rdf-schema#label> "reservatório"@pt .
+<https://www.petwin.org/o3po-resources/o3po#reservoir> <http://www.w3.org/2000/01/rdf-schema#label> "reservoir"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#reservoir_role
+<https://www.petwin.org/o3po-resources/o3po#reservoir_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#reservoir_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<https://www.petwin.org/o3po-resources/o3po#reservoir_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#reservoir> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000081> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://www.petwin.org/o3po-resources/o3po#riser
+<https://www.petwin.org/o3po-resources/o3po#riser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#riser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Pipeline> .
+<https://www.petwin.org/o3po-resources/o3po#riser> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Platform> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#connected_to> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#riser> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a pipeline that vertically carries fluids or fluid-like amounts or artifacts (e.g., cables, pipes) and that connects a wellhead or a manifold on the seafloor to a platform."@en .
+<https://www.petwin.org/o3po-resources/o3po#riser> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: \"Pipe or pipeline that vertically carries materials (e.g., production fluids, drilling mud, drilling cuttings) or ‘ARTIFACTS’ (e.g., cables, pipes) and that connects a wellhead or a manifold on the seafloor to a (production and/or drilling) platform”"@en .
+<https://www.petwin.org/o3po-resources/o3po#riser> <http://www.w3.org/2000/01/rdf-schema#label> "riser"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#sensor
+<https://www.petwin.org/o3po-resources/o3po#sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/MaterialArtifact> .
+<https://www.petwin.org/o3po-resources/o3po#sensor> <http://purl.obolibrary.org/obo/IAO_0000112> "SSN: \"Accelerometers, gyroscopes, barometers, magnetometers, and so forth are Sensors that are typically mounted on a modern smart phone (which acts as Platform). Other examples of Sensors include the human eyes.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#sensor> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a material artifact that generates a result in response to some stimulus (e.g., a change in its environment) or input data from results of prior observations, with such result corresponding to the measurement of a physical property."@en .
+<https://www.petwin.org/o3po-resources/o3po#sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "SSN: \"Sensor - Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a Stimulus, e.g., a change in the environment, or Input data composed from the Results of prior Observations, and generate a Result. Sensors can be hosted by Platforms.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Wikipedia: \"A sensor is a device that produces an output signal for the purpose of sensing of a physical phenomenon.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#sensor> <http://www.w3.org/2000/01/rdf-schema#label> "sensor"@en .
+<https://www.petwin.org/o3po-resources/o3po#sensor> <http://www.w3.org/2000/01/rdf-schema#label> "sensor"@pt .
+<https://www.petwin.org/o3po-resources/o3po#sensor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Sensor"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# https://www.petwin.org/o3po-resources/o3po#tag
+<https://www.petwin.org/o3po-resources/o3po#tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#tag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/Identifier> .
+# 
+# https://www.petwin.org/o3po-resources/o3po#temperature
+<https://www.petwin.org/o3po-resources/o3po#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000019> .
+<https://www.petwin.org/o3po-resources/o3po#temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_value> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_value> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#temperature> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a BFO:Quality that corresponds to the degree/intensity of the thermal energy of a BFO:Material_Entity."@en .
+<https://www.petwin.org/o3po-resources/o3po#temperature> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: “A BFO:Quality that corresponds to the degree/intensity of the thermal energy of a BFO:Material_Entity.”"@en .
+<https://www.petwin.org/o3po-resources/o3po#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura"@pt .
+<https://www.petwin.org/o3po-resources/o3po#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperature"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#temperature_downstream_of_choke
+<https://www.petwin.org/o3po-resources/o3po#temperature_downstream_of_choke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#temperature_downstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#temperature> .
+<https://www.petwin.org/o3po-resources/o3po#temperature_downstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#choke> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#temperature_downstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura à jusante do choke"@pt .
+<https://www.petwin.org/o3po-resources/o3po#temperature_downstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#label> "temperature downstream of choke"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#temperature_sensor
+<https://www.petwin.org/o3po-resources/o3po#temperature_sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#temperature_sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#sensor> .
+<https://www.petwin.org/o3po-resources/o3po#temperature_sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#temperature> .
+_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#measures> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#temperature_sensor> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a sensor that measures the temperature of a fluid."@en .
+<https://www.petwin.org/o3po-resources/o3po#temperature_sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Wikipedia: \"A thermometer is a device that measures temperature or a temperature gradient (the degree of hotness or coldness of an object).\""@en .
+<https://www.petwin.org/o3po-resources/o3po#temperature_sensor> <http://www.w3.org/2000/01/rdf-schema#label> "sensor de temperatura"@pt .
+<https://www.petwin.org/o3po-resources/o3po#temperature_sensor> <http://www.w3.org/2000/01/rdf-schema#label> "temperature sensor"@en .
+<https://www.petwin.org/o3po-resources/o3po#temperature_sensor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://en.wikipedia.org/wiki/Thermometer"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#temperature_upstream_of_choke
+<https://www.petwin.org/o3po-resources/o3po#temperature_upstream_of_choke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#temperature_upstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#temperature> .
+<https://www.petwin.org/o3po-resources/o3po#temperature_upstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid94 .
+_:genid94 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#choke> .
+_:genid94 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#temperature_upstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura à montante do choke"@pt .
+<https://www.petwin.org/o3po-resources/o3po#temperature_upstream_of_choke> <http://www.w3.org/2000/01/rdf-schema#label> "temperature upstream of choke"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#test_separator
+<https://www.petwin.org/o3po-resources/o3po#test_separator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#test_separator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Separator> .
+<https://www.petwin.org/o3po-resources/o3po#test_separator> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a separator that is used to separate and meter relatively small quantities of oil and gas."@en .
+<https://www.petwin.org/o3po-resources/o3po#test_separator> <http://www.w3.org/2000/01/rdf-schema#comment> "SLB Oilfield Glossary: \"A vessel used to separate and meter relatively small quantities of oil and gas. Test separators can be two-phase or three-phase, or horizontal, vertical or spherical. They can also be permanent or portable. Test separators sometimes are equipped with different meters to determine oil, water and gas rates, which are important to diagnose well problems, evaluate production performance of individual wells and manage reserves properly. Test separators can also be called well testers or a well checkers.\""@en .
+<https://www.petwin.org/o3po-resources/o3po#test_separator> <http://www.w3.org/2000/01/rdf-schema#label> "separador de teste"@pt .
+<https://www.petwin.org/o3po-resources/o3po#test_separator> <http://www.w3.org/2000/01/rdf-schema#label> "test separator"@en .
+<https://www.petwin.org/o3po-resources/o3po#test_separator> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://glossary.oilfield.slb.com/Terms/t/test_separator.aspx"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#tube
+<https://www.petwin.org/o3po-resources/o3po#tube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#tube> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/MaterialArtifact> .
+<https://www.petwin.org/o3po-resources/o3po#tube> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "duct"@en .
+<https://www.petwin.org/o3po-resources/o3po#tube> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "pipe"@en .
+<https://www.petwin.org/o3po-resources/o3po#tube> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "tubular"@en .
+<https://www.petwin.org/o3po-resources/o3po#tube> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a material artifact that is long, enclosed and hollow and that acts as a passageway to carry different sorts of things (e.g., fluids, cables, other ducts)."@en .
+<https://www.petwin.org/o3po-resources/o3po#tube> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: “Functional Object / Material Artifact that is enclosed and hollow and that acts as a passageway to carry different sorts of things (e.g., fluids, cables, other ducts)”"@en .
+<https://www.petwin.org/o3po-resources/o3po#tube> <http://www.w3.org/2000/01/rdf-schema#label> "tube"@en .
+<https://www.petwin.org/o3po-resources/o3po#tube> <http://www.w3.org/2000/01/rdf-schema#label> "tubo"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#tubing
+<https://www.petwin.org/o3po-resources/o3po#tubing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#tubing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Pipeline> .
+<https://www.petwin.org/o3po-resources/o3po#tubing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid95 .
+_:genid95 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#tubing_role> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000087> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#tubing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid96 .
+_:genid96 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/componentPartOfAtSomeTime> .
+<https://purl.industrialontologies.org/ontology/core/Core/componentPartOfAtSomeTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#tubing> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a pipeline that is inside a well."@en .
+<https://www.petwin.org/o3po-resources/o3po#tubing> <http://www.w3.org/2000/01/rdf-schema#label> "tubing"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#tubing_downhole_pressure
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid97 .
+_:genid97 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#tubing> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressão de fundo do tubing"@pt .
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "tubing downhole pressure"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#tubing_downhole_temperature
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#temperature> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid98 .
+_:genid98 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#tubing> .
+_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura de fundo do tubing"@pt .
+<https://www.petwin.org/o3po-resources/o3po#tubing_downhole_temperature> <http://www.w3.org/2000/01/rdf-schema#label> "tubing downhole temperature"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#tubing_role
+<https://www.petwin.org/o3po-resources/o3po#tubing_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000023> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid99 .
+_:genid99 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Pipeline> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid100 .
+_:genid100 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Pipeline> .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/roleOf> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#tubing_role> <http://www.w3.org/2000/01/rdf-schema#label> "tubing role"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#valve
+<https://www.petwin.org/o3po-resources/o3po#valve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#valve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/MaterialArtifact> .
+<https://www.petwin.org/o3po-resources/o3po#valve> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a functional complex that controls flow of fluids or fluid-like amounts (e.g., slurries, fluidized solids)."@en .
+<https://www.petwin.org/o3po-resources/o3po#valve> <http://www.w3.org/2000/01/rdf-schema#comment> "Unified definition: \"Device that controls (e.g., permits, obstructs, regulates, directs) a stream/flow of fluids (e.g., gases, liquids) or fluid-like amounts (e.g., slurries, fluidized solids)\""@en .
+<https://www.petwin.org/o3po-resources/o3po#valve> <http://www.w3.org/2000/01/rdf-schema#label> "valve"@en .
+<https://www.petwin.org/o3po-resources/o3po#valve> <http://www.w3.org/2000/01/rdf-schema#label> "válvula"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#variable
+<https://www.petwin.org/o3po-resources/o3po#variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#variable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://spec.industrialontologies.org/ontology/core/Core/InformationContentEntity> .
+# 
+# https://www.petwin.org/o3po-resources/o3po#volume
+<https://www.petwin.org/o3po-resources/o3po#volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#volume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000019> .
+<https://www.petwin.org/o3po-resources/o3po#volume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid101 .
+_:genid101 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#fluid> .
+_:genid101 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume"@en .
+<https://www.petwin.org/o3po-resources/o3po#volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume"@pt .
+# 
+# https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_in-situ_conditions
+<https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_in-situ_conditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_in-situ_conditions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#WellFlowRate> .
+<https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_in-situ_conditions> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_standard_conditions> .
+<https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_in-situ_conditions> <http://www.w3.org/2000/01/rdf-schema#label> "vazão de líquido do poço em condições de reservatório"@pt .
+<https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_in-situ_conditions> <http://www.w3.org/2000/01/rdf-schema#label> "well liquid rate in-situ conditions"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_standard_conditions
+<https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_standard_conditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_standard_conditions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#WellFlowRate> .
+<https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_standard_conditions> <http://www.w3.org/2000/01/rdf-schema#label> "vazão de líquido do poço em condições padrão"@pt .
+<https://www.petwin.org/o3po-resources/o3po#well_liquid_rate_standard_conditions> <http://www.w3.org/2000/01/rdf-schema#label> "well liquid rate standard conditions"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#well_name
+<https://www.petwin.org/o3po-resources/o3po#well_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#well_name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#name> .
+<https://www.petwin.org/o3po-resources/o3po#well_name> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid102 .
+_:genid102 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid102 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/BFO_0000197> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#well_name> <http://www.w3.org/2000/01/rdf-schema#label> "nome do poço"@pt .
+<https://www.petwin.org/o3po-resources/o3po#well_name> <http://www.w3.org/2000/01/rdf-schema#label> "well name"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#well_status_flag
+<https://www.petwin.org/o3po-resources/o3po#well_status_flag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#well_status_flag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000019> .
+<https://www.petwin.org/o3po-resources/o3po#well_status_flag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid103 .
+_:genid103 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid103 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#well_status_flag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid104 .
+_:genid104 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Well> .
+_:genid104 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000080> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#well_status_flag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid105 .
+_:genid105 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid105 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_value> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#well_status_flag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid106 .
+_:genid106 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid106 <http://www.w3.org/2002/07/owl#onProperty> <https://www.petwin.org/o3po-resources/o3po#has_value> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#well_status_flag> <http://www.w3.org/2000/01/rdf-schema#label> "well status flag"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#wellhead_pressure
+<https://www.petwin.org/o3po-resources/o3po#wellhead_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#wellhead_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#pressure> .
+<https://www.petwin.org/o3po-resources/o3po#wellhead_pressure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid107 .
+_:genid107 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Wellhead> .
+_:genid107 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#wellhead_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "pressão na cabeça do poço"@pt .
+<https://www.petwin.org/o3po-resources/o3po#wellhead_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "wellhead pressure"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#wellhead_temperature
+<https://www.petwin.org/o3po-resources/o3po#wellhead_temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#wellhead_temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#temperature> .
+<https://www.petwin.org/o3po-resources/o3po#wellhead_temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid108 .
+_:genid108 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Wellhead> .
+_:genid108 <http://www.w3.org/2002/07/owl#onProperty> <https://purl.industrialontologies.org/ontology/core/Core/qualityOf> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#wellhead_temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperatura na cabeça do poço"@pt .
+<https://www.petwin.org/o3po-resources/o3po#wellhead_temperature> <http://www.w3.org/2000/01/rdf-schema#label> "wellhead temperature"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Injection_(process)
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Flow> .
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid109 .
+_:genid109 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#InjectionWell> .
+_:genid109 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid110 .
+_:genid110 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#fluid> .
+_:genid110 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid111 .
+_:genid111 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#reservoir> .
+_:genid111 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.w3.org/2002/07/owl#disjointWith> <https://www.petwin.org/o3po-resources/o3po#Production_(process)> .
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a flow that has an injection well as participant and is towards a reservoir."@en .
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.w3.org/2000/01/rdf-schema#comment> "Injection of gases or liquids into a reservoir to force oil toward and into producing wells."@en .
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.w3.org/2000/01/rdf-schema#label> "injection (process)"@en .
+<https://www.petwin.org/o3po-resources/o3po#Injection_(process)> <http://www.w3.org/2000/01/rdf-schema#label> "injeção (processo)"@pt .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid112 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#Injection_(process)> .
+_:genid112 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid112 <http://www.w3.org/2002/07/owl#annotatedTarget> "Injection of gases or liquids into a reservoir to force oil toward and into producing wells."@en .
+_:genid112 <http://purl.org/dc/terms/source> "Introduction to Oil & Gas Production (ITOGP), 1983"@en .
+# 
+# https://www.petwin.org/o3po-resources/o3po#Production_(process)
+<https://www.petwin.org/o3po-resources/o3po#Production_(process)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.petwin.org/o3po-resources/o3po#Production_(process)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.petwin.org/o3po-resources/o3po#Flow> .
+<https://www.petwin.org/o3po-resources/o3po#Production_(process)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid113 .
+_:genid113 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_earth_fluid> .
+_:genid113 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Production_(process)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid114 .
+_:genid114 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#Production_Well> .
+_:genid114 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Production_(process)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid115 .
+_:genid115 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://www.petwin.org/o3po-resources/o3po#reservoir> .
+_:genid115 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.obolibrary.org/obo/RO_0000057> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.petwin.org/o3po-resources/o3po#Production_(process)> <http://www.ontologyrepository.com/CommonCoreOntologies/definition> "def. a flow that has a production well as participant and is towards a platform."@en .
+<https://www.petwin.org/o3po-resources/o3po#Production_(process)> <http://www.w3.org/2000/01/rdf-schema#comment> "The yield of an oil or gas well. Also that branch of the petroleum industry that has to do with bringing the well fluids to the surface and separating them, and with storing, gaging, and otherwise preparing the product for the pipeline."@en .
+<https://www.petwin.org/o3po-resources/o3po#Production_(process)> <http://www.w3.org/2000/01/rdf-schema#label> "production (process)"@en .
+<https://www.petwin.org/o3po-resources/o3po#Production_(process)> <http://www.w3.org/2000/01/rdf-schema#label> "produção (processo)"@pt .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid116 <http://www.w3.org/2002/07/owl#annotatedSource> <https://www.petwin.org/o3po-resources/o3po#Production_(process)> .
+_:genid116 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#comment> .
+_:genid116 <http://www.w3.org/2002/07/owl#annotatedTarget> "The yield of an oil or gas well. Also that branch of the petroleum industry that has to do with bringing the well fluids to the surface and separating them, and with storing, gaging, and otherwise preparing the product for the pipeline."@en .
+_:genid116 <http://www.geneontology.org/formats/oboInOwl#source> "Introduction to Oil & Gas Production (ITOGP), 1983"@en .
+# 
+_:genid117 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid118 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid119 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid120 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid121 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid122 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid123 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://www.industrialontologies.org/core/iof_00000016> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested definition (NOS): def. object aggregate that fits together the component parts of a machine or other object"@en .
+# 
+<https://www.industrialontologies.org/core/iof_00000021> <http://www.w3.org/2000/01/rdf-schema#comment> "Suggested definition (NOS): def. IOF:Assembly that is complete"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid124 <http://www.w3.org/2002/07/owl#members> _:genid133 .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid131 .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129 .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#wellhead_pressure> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#tubing_downhole_pressure> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#pressure_upstream_of_choke> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#pressure_downstream_of_choke> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#common_close_control_line_pressure> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#ICV_open_control_line_pressure> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#ICV_delta_pressure> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#ICV_annular_pressure> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#BottomholePressure> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid134 <http://www.w3.org/2002/07/owl#members> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid137 .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#valve> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#tube> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#sensor> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#Separator> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#ChristmasTree> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid140 <http://www.w3.org/2002/07/owl#members> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid142 .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#gas-lift_valve> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#choke> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#ICV> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid144 <http://www.w3.org/2002/07/owl#members> _:genid149 .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid147 .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid146 .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#wellhead_temperature> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#tubing_downhole_temperature> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#temperature_upstream_of_choke> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#temperature_downstream_of_choke> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#ICV_annular_temperature> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid150 <http://www.w3.org/2002/07/owl#members> _:genid153 .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid151 .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_reconciled_method> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_IPR_method> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#ICV_flow_rate_ICV_method> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid154 <http://www.w3.org/2002/07/owl#members> _:genid157 .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid155 .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#Production_Well> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#Observation_well> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://www.petwin.org/o3po-resources/o3po#InjectionWell> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

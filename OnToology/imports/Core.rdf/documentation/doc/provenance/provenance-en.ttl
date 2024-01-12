@@ -1,0 +1,30 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://raw.githubusercontent.com/BDI-UFRGS/O3POntology/main/imports/Core.rdf> a prov:Entity;
+	 dc:title "Industrial Ontology Foundry (IOF) Core Ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo :agent4;
+	 prov:wasAttributedTo :agent5;
+	 prov:wasAttributedTo :agent6;
+	 prov:wasAttributedTo :agent7;
+	 prov:wasAttributedTo :agent8;
+	 prov:wasAttributedTo :agent9;
+	 prov:wasAttributedTo :agent10;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.
+:agent0 a prov:Agent; foaf:name "IOF Core Working Group".
+:agent1 a prov:Agent; foaf:name "Ana Teresa Correia, Institut fuer angewandte Systemtechnik Bremen GmbH (ATB-Bremen)".
+:agent2 a prov:Agent; foaf:name "Barry Smith, University at Buffalo".
+:agent3 a prov:Agent; foaf:name "Boonserm Kulvatunyou, National Institute of Standards and Technology (NIST)".
+:agent4 a prov:Agent; foaf:name "Chris Will, National Center for Ontological Research (NCOR)".
+:agent5 a prov:Agent; foaf:name "Dusan Sormaz, Ohio University".
+:agent6 a prov:Agent; foaf:name "Elisa Kendall, Thematix Partners LLC".
+:agent7 a prov:Agent; foaf:name "Farhad Ameri, Texas State University".
+:agent8 a prov:Agent; foaf:name "Melinda Hodkiewicz, University of Western Australia".
+:agent9 a prov:Agent; foaf:name "Milos Drobnjakovic, National Institute of Standards and Technology (NIST)".
+:agent10 a prov:Agent; foaf:name "Will Sobel, W. V. Sobel LLC".

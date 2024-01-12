@@ -1,0 +1,987 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/acronym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@language" : "en-us",
+    "@value" : "an abbreviation usually formed from the initial components of a longer name or phrase"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom" : [ {
+    "@value" : "https://en.wikipedia.org/wiki/Acronym"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/abstract"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "abstract"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/description"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "summary of the resource"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "This annotation is used to describe an artifact such as a vocabulary, ontology, or ontology module."
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/contributor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "contributor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "entity responsible for making contributions to the resource"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/creator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "creator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/contributor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "entity responsible for making the resource"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "account of the resource"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@value" : "This annotation is used to describe an artifact such as a vocabulary, ontology, or ontology module."
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/issued"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "issued"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "date of formal issuance of the resource"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@value" : "This annotation is used to describe an artifact such as a vocabulary, ontology, or ontology module."
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/license"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "license"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "legal document giving official permission to do something with the resource"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/modified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "modified"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "date on which the resource was changed"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/publisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "publisher"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "entity responsible for making the resource available"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@value" : "Used to document the primary agent (organization or person) responsible for the resource. This will be \"Industrial Ontology Foundry\" for IOF artifacts."
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/references",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/references"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "references"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "related resource that is referenced, cited, or otherwise pointed to by the described resource"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/rights"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "rights"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "information about rights held in and over the resource"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "source"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "related resource from which the described resource is derived"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote" : [ {
+    "@language" : "en-us",
+    "@value" : "The intent is to provide a user with a reference as to how the thing being annotated was derived or arrived at. \n - The source can be a URL to a standard, common dictionary (e.g. Oxford), or similar reference. Or it can be a short description of where the entity being annotated was derived from.\n - The 'Source' annotation would most likely be used as an annotation on an annotation. For instance annotating a Natural Language definition annotation."
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/dc/terms/title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "title"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "name given to the resource"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@value" : "Used for formal title of an artifact (but not individual elements such as classes or properties)."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://www.w3.org/2000/01/rdf-schema#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "comment"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "instance of rdf:Property that may be used to provide a human-readable description of a resource"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "Use of this annotation is deprecated in IOF.\n\nThis annotation MUST NOT be used in IOF ontologies. IOF authors SHOULD use explanatoryNote, usageNote, or scopeNote when additional information about the resource is needed. skos:note may be used directly in a case where none of the other annotation properties enumerated apply."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://www.w3.org/2000/01/rdf-schema#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "is defined by"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "instance of rdf:Property that is used to indicate a resource defining the subject resource"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@value" : "This annotation is used to identify the machine readable resource that formally defines the subject resource. The object of an rdfs:isDefinedBy annotation must be a URL."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://www.w3.org/2000/01/rdf-schema#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "label"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "instance of rdf:Property that may be used to provide a human-readable version of a resource's name"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en-us",
+    "@value" : "Example: If the IRI of a class was https://www.industrialontologies.org/ontology/core/Core/ManufacturedProduct, the rdfs:label might be 'manufactured product'"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "The de facto use of rdfs:label is to exactly reflect (but not necessarily be exactly the same as) the local name of an element in an ontology (i.e., in OWL the 'local name' is the final segment of the IRI after the /)."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://www.w3.org/2000/01/rdf-schema#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "see also"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "instance of rdf:Property that is used to indicate a resource that might provide additional information about the subject resource"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "The information provided via annotations in an ontology should be concise and to the point.\n - Additional or extended explanations, history, decisions, rationale, etc. can be placed in an ontology's External Documentation. \n - The External Documentation need not be elaborate. If using Github to publish an ontology is could be part of the Read.Me element. Or it could be a single document.\n - The object of an rdfs:seeAlso annotation must be a URL (e.g. the reference document or GitHub site of the ontology)."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "alternative label"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "alternative lexical label for a resource"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#changeNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "change note"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "note about a modification to a concept"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "definition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "statement or formal explanation of the meaning of a concept"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#editorialNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "editorial note"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "note for an editor, translator, or maintainer of the vocabulary"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#example",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "example"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "example of the use of a concept"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "Use of this annotation is optional, but recommended if it will help a user understand the intended interpretation(s).\n- This annotation should use at most twice with/on a notion.\n- Additional examples or more elaborate examples should be placed in the External Documentation (using rdfs:seeAlso)."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#note",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "general note, for any purpose"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "scope note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "note that helps to clarify the meaning and/or the use of a concept"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "Use of this annotation is optional, but recommended if it will help a user understand the scope and/or context for usage of the concept."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@language" : "en-us",
+    "@value" : "The IOF Annotation Vocabularyprovides a set of OWL annotation properties for annotating IOF or other content with metadata to facilitate user and ontology developer understanding."
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@language" : "en-us",
+    "@value" : "Elisa Kendall, Thematix Partners LLC"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en-us",
+    "@value" : "Evan Wallace, NIST"
+  }, {
+    "@language" : "en-us",
+    "@value" : "IOF Technical Oversight Board (TOB)"
+  }, {
+    "@language" : "en-us",
+    "@value" : "Todd Schneider, Engineering Semantics, LLC"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://opensource.org/licenses/MIT"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@language" : "en-us",
+    "@value" : "Industrial Ontology Foundry"
+  } ],
+  "http://purl.org/dc/terms/references" : [ {
+    "@id" : "http://purl.org/dc/terms/"
+  }, {
+    "@id" : "http://www.w3.org/2004/02/skos/core#"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en-us",
+    "@value" : "Industrial Ontology Foundry (IOF) Annotation Vocabulary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "Annotation Vocabulary (AV)"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/20220929/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en-us",
+    "@value" : "Development Version - post-Version 1 Beta - 2022-09-29"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#changeNote" : [ {
+    "@language" : "en-us",
+    "@value" : "added new annotations and supporting constructs, and modified others to match revised guidance in the IOF Confluence page entitled: \"Annotations Vocabulary Version 2\" - August and September 2022"
+  }, {
+    "@language" : "en-us",
+    "@value" : "added new annotations as needed for release purposes - 31 March 2022"
+  }, {
+    "@language" : "en-us",
+    "@value" : "revised the IRI structure to correspond to the approved approach to IRI representation documented in https://oagiscore.atlassian.net/wiki/spaces/IOF/pages/3564372109/IRI+Structure+and+Format and ran the RDF serialiser (from FIBO) over the content"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/copyright" : [ {
+    "@value" : "Copyright (c) 2022 Open Applications Group"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/maturity" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "1. The intention of using annotations is to \n a) help a potential user decide if the ontology or a notion therein meets his or her needs and \n b) help a user or developer understand the 'elements' in the ontology and how to interpret them consistent with the intended interpretation of the IOF.\n\n2. Annotation Usage Conditions\nThe particular annotations that are required or used will depend on the representation language used. IOF ontologies are published using either OWL or Common Logic. As example, the iof-av:firstOrderLogicDefinition should not be used in ontologies using Common Logic.\n\n3. Formal Definition – A statement or expression made using a formal language. A Formal Language can be considered as composed of symbols (aka the alphabet, aka signature), logical symbols (for conjunction, disjunction, implication, equivalence, and quantification), non-logical symbols, and a a set of rules for creating (well formed) statements/expressions in the language. In the case of OWL there are non-logical symbols for classes, object properties, and data properties and these non-logical symbols are usually natural language terms or phrases.\n a) For the IOF these formal languages include First Order Logic (FOL), Common Logic (CL), and OWL. Note that the last two are used for ontology development.\n b) For classes, the only Formal statements or expressions in an IOF ontology are the First Order Logic Definition annotation and the OWL or Common Logic (class or relation) axioms. Note, in the case of a primitive or axiomatic notion there will be no (complete) necessary and sufficient formal definition or axioms.\n c) One point to bear in mind in the way the IOF is using formal languages is that the majority of the symbols used are not from the Greek alphabet nor single characters (usually) but are derived from natural language terms or phrases. This distinction must be kept in mind.\n\n4. There will be some notions (e.g. classes) that are taken as primitive. They will not have Formal definitions, but may have formal axioms to constrain the intended interpretation."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "provisional"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "construct or ontology development state in which content is subject to change and may change considerably"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote" : [ {
+    "@language" : "en-us",
+    "@value" : "IOF users should be aware that the resource is not dependable, but can be used for reference and for further work."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "released"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "construct or ontology development state in which the resource is stable, usable, and has been made available to external users"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote" : [ {
+    "@language" : "en-us",
+    "@value" : "Release notes will be provided for any changes concerning released content, and any revisions will be backward compatible with the prior version to the degree possible."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/abbreviation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "abbreviation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "synonym that is an alternate short label for the resource"
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/acronym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "acronym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/abbreviation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "an abbreviation usually formed from the initial components of a longer name or phrase"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "Use this annotation when there is a commonly accepted acronym.\n\nHOWEVER: While acronyms and other abbreviations may be provided as annotations to elements in an IOF ontology, they must NOT BE USED as part of identifiers or labels, except where they have become the primary designator for a notion where the full 'name' is no longer commonly known or recognized. (e.g. LASER: Light Amplification by Stimulated Emission of Radiation; RADAR: RAdio Detection And Ranging; MODEM: Modulator-DEModulator; SCUBA: Self-Contained Underwater Breathing Apparatus; etc),"
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "adapted from"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/source"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "source for the resource that was modified to create the subject resource"
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/copyright",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "copyright"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/rights"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "exclusive legal right, given to an originator or an assignee to print, publish, perform, film, or record literary, artistic, or musical material, and to authorize others to do the same"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "This annotation is to be used for an entire ontology and not individual elements."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/counterExample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "counter example"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "example that refutes or disproves a concept in some scenario and is intended to demonstrate how the concept might be misused"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@value" : "Use of this annotation is optional, but recommended if it will help a user understand the intended interpretation(s).\n- This annotation should use at most twice with/on a notion.\n- Additional examples or more elaborate examples should be placed in the External Documentation (using rdfs:seeAlso)."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/directSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "direct source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/source"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "definitive source of the subject resource"
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/elucidation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "elucidation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+  } ],
+  "http://www.w3.org/2002/07/owl#deprecated" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en-us",
+    "@value" : "'Agent' is a subclass of the BFO class 'material entity', which in turn is a subclass of the BFO class 'independent continuant', which in turn is a subclass of the BFO class 'continuant'. So the position of 'Agent' is 'material entity ← independent continuant ← continuant'."
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "This annotation is no longer used. The isPrimitive annotation is now set to true to indicate a primitive class when necessary and sufficient conditions can not be provided."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/excerptedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "excerpted from"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/source"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "source of a resource that was imported unmodified from an external ontology"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "This annotation is to be used when an element from a non-IOF ontology is used in an IOF ontology (and the source ontology is not imported in its entirety)."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "explanatory note"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "note that provides additional explanatory information about a given notion or resource"
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicAxiom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "first-order logic axiom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/logicAxiom"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "logic axiom annotation written in first order logic"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "First-order logic axioms MAY be provided if the term is primitive ('is primitive' is true ) or non-primitive. A construct MAY include more than one first-order logic axiom annotation."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "first order logic definition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/logicDefinition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "logic definition that expresses the axioms of a class or an object property in first order logic"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en-us",
+    "@value" : "An example of a First Order Logic definition for 'Product' might be (again bearing in mind the natural language terms appearing should be regarded as symbols in the IOF signature):\n - Continuant(x) ∧ ¬(SpecificallyDependentContinuant(x) ∨ Person(x) ∨ Organization(x)) ∧ ∃r (ProductRole(r) ∧ hasRole(x, r))"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "The First Order Logic Definition annotation is comprised of the (complete) necessary and sufficient conditions.\n - This annotation is Required for each non-primitive (aka non-axiomatic) class (i.e. unary relation) of a published IOF OWL ontology. This is the most authoritative and comprehensive definition of an IOF element. \n - IOF Common Logic ontologies do not require this annotation, but if included it must be logically equivalent to the Common Logic definition.\n - A primitive (aka axiomatic) term will not have a First Order Logic definition in either an OWL or Common Logic IOF ontology.\n - There should be at most one First Order Logic definition.\n - The specific symbols to be used for existential and universal quantification along with those for conjunction, disjunction, negation, conditional (i.e. if-then), and equivalence will be those commonly used in the mathematical formulas and statement.\n - Conjunction - ∧; Disjunction - ∨; Negation - ¬; Existential Quantification - ∃; Universal Quantification - ∀; Conditional - →; Equivalence - ↔; Left/Right Parentheses - (,); Left/Right Brackets - {,}."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/isPrimitive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "is primitive"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "boolean flag indicating that necessary and sufficient conditions are not provided"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "'is primitive' must be present if the term does not have necessary and sufficient conditions and the value of the annotation must be set to true. When 'is primitive' is set to true, a value for a 'primitive rationale' annotation must also be provided."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/logicAxiom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "logic axiom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "logical statements constraining the interpretation of the notion represented by the construct that do not provide necessary and sufficient conditions"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote" : [ {
+    "@language" : "en-us",
+    "@value" : "This annotation property is an abstraction of the more specialized logic axiom annotations used in IOF. However, this annotation property can also be used to group together the logic axiom annotation values of different forms (such as FOL and natural language) that express the same meaning for a particular construct."
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "A first order logic axiom expression and a semi-formal natural language axiom expression should be added as Property values for each logic axiom annotation using 1 of each of the corresponding logic axiom annotation subproperties."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/logicDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "logic definition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "definition in the form of a logical expression"
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/maintainer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "maintainer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/contributor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "entity responsible for maintaining the resource"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "This annotation applies to an entire IOF ontology (i.e. the file) and not to individual elements."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/maturity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "maturity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "annotation property used to indicate the development status of a resource"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "Any value for maturity MUST be an instance of MaturityLevel. All IOF ontologies MUST include exactly one maturity annotation. IOF constructs may include a maturity annotation."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "natural language definition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "definition written in plain text for human understanding"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "This annotation is Required for each non-primitive or non-axiomatic class of an IOF (OWL or Common Logic) ontology. \n - It is optional for primitive (aka axiomatic) classes since such the Elucidation annotation is required and will satisfy the role of a natural language definition.\n - It is optional, but recommended, for relations when the intent of a relation may be misunderstood.\n - There should be at most one.\n - This natural language definition should be subject matter expert friendly and consistent with any formal definition or elucidation.\n - Natural language definitions should use class and relation names with following caveats:\n a) Relations – For those relations whose label (i.e. local identifier) consist of multiple terms hyphenate the terms of the label: e.g. 'hasPlan' would be written as 'has-plan'\n b) Classes – For classes whose label has multiple distinct terms, e.g, ManufacturingOperationSpecification, separate the terms but bound them with apostrophe marks: 'Manufacturing Operation Specification'."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/primitiveRationale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "primitive rationale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "reason why necessary and sufficient conditions could not be provided"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "When 'is primitive' is set to true, a value for 'primitive rationale' must be provided. The rationale should indicate what is missing if additional work is required to define necessary and sufficient conditions."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/semiFormalNaturalLanguageAxiom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "semi-formal natural language axiom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/logicAxiom"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "logic axiom expressed in natural language"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "Semi-formal natural language axioms MAY be provided if the term is primitive (is primitive is true). A construct MAY include more than one semi-formal natural language axiom annotation."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/semiFormalNaturalLanguageDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "semi-formal natural language definition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/logicDefinition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "logic definition that expresses a first order logic definition or common logic definition in natural language"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@language" : "en-us",
+    "@value" : "This annotation is required if an element in an IOF OWL ontology has a First Order Logic definition or in a IOF Common Logic (where the element is defined using Common Logic).\n - The intent of this annotation to provide a transition or bridge from the First Order Logic definition of a notion to the natural language definition. This definition is intended to help a user understand the intended interpretation of the notion.\n - As example using the First Order Logic definition of 'Product' above, a semi-formal translation of that might be: \n - Product =def. Continuant that is not a Person and not an Organization and not a Specifically Dependent Continuant and there is a Product Role that the thing has or bears."
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/subjectMatterExpertExplanation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subject matter expert explanation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "definition of the term expressed in natural language that has the minimal usage of ontological terms and is intended to be a self-standing explanation"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote" : [ {
+    "@value" : "Usage of this annotation is optional but is recommended in cases where:\n- the natural language definition or elucidation rely heavily on the terms defined in the ontology\n- there exists an explanation of the term that is more familiar to SMEs that does not coincide with the definition present in the ontology"
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/symbol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "symbol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/abbreviation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "abbreviation that is a design, mark, or charaters(s) used conventionally to represent something, such as currency, quantity, or variable in an expression"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en-us",
+    "@value" : "Chemical Symbols: H, O, Mg\nUnits of Measure: Km, Kg, G"
+  } ],
+  "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/"
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/synonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "synonym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "alternative label (designation) used for the resource in some community"
+  } ]
+}, {
+  "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/usageNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en-us",
+    "@value" : "usage note"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en-us",
+    "@value" : "note that provides information about how a given notion or resource is used in the ontology's context"
+  } ]
+} ]

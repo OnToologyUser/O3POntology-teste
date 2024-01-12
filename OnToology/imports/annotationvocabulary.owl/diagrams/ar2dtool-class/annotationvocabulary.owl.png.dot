@@ -1,0 +1,41 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"NULL" -> "skos:definition" [ label = "owl:annotatedProperty" ];
+	"NULL" -> "iof-av:acronym" [ label = "owl:annotatedSource" ];
+	"dcterms:description" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:semiFormalNaturalLanguageDefinition" -> "iof-av:logicDefinition" [ label = "rdfs:subPropertyOf" ];
+	"dcterms:creator" -> "dcterms:contributor" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:elucidation" -> "skos:definition" [ label = "rdfs:subPropertyOf" ];
+	"skos:definition" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:naturalLanguageDefinition" -> "skos:definition" [ label = "rdfs:subPropertyOf" ];
+	"skos:changeNote" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:abbreviation" -> "skos:altLabel" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:excerptedFrom" -> "dcterms:source" [ label = "rdfs:subPropertyOf" ];
+	"skos:editorialNote" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"skos:example" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:semiFormalNaturalLanguageAxiom" -> "iof-av:logicAxiom" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:firstOrderLogicAxiom" -> "iof-av:logicAxiom" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:synonym" -> "skos:altLabel" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:explanatoryNote" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"skos:altLabel" -> "rdfs:label" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:logicDefinition" -> "skos:definition" [ label = "rdfs:subPropertyOf" ];
+	"dcterms:abstract" -> "dcterms:description" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:" -> "skos:" [ label = "dcterms:references" ];
+	"iof-av:" -> "https://spec.industrialontologies.org/ontology/core/20220929/meta/AnnotationVocabulary/" [ label = "owl:versionIRI" ];
+	"iof-av:" -> "iof-av:Released" [ label = "iof-av:maturity" ];
+	"iof-av:" -> "dcterms:" [ label = "dcterms:references" ];
+	"iof-av:logicAxiom" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:acronym" -> "iof-av:abbreviation" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:primitiveRationale" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:subjectMatterExpertExplanation" -> "skos:definition" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:maintainer" -> "dcterms:contributor" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:counterExample" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:symbol" -> "iof-av:abbreviation" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:firstOrderLogicDefinition" -> "iof-av:logicDefinition" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:adaptedFrom" -> "dcterms:source" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:directSource" -> "dcterms:source" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:usageNote" -> "skos:note" [ label = "rdfs:subPropertyOf" ];
+	"iof-av:copyright" -> "dcterms:rights" [ label = "rdfs:subPropertyOf" ];
+
+}
